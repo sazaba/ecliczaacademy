@@ -4,10 +4,10 @@ const Cta = () => {
   return (
     <div className="cta-buttons mt-3 flex justify-center">
       <a
-        href="https://pay.hotmart.com/N93858012D?off=l6ppiomgc"
+        href="https://hotm.art/gohRuaB"
         className="bg-green-500 text-white py-3 px-6 rounded-full text-base md:text-lg font-semibold transition-transform duration-500 ease-in-out hover:bg-green-700 w-full sm:w-auto text-center animate-persuade"
       >
-        ¡QUIERO APRENDER INGLÉS!
+        ¡SI QUIERO APRENDER INGLÉS!
       </a>
 
       {/* Animación personalizada */}
