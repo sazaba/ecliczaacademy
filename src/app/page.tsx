@@ -74,7 +74,7 @@ export default function Home() {
   </h2>
 </div>
 
-<section className="text-center max-w-4xl mx-auto mb-12">
+<section className="text-center max-w-4xl mx-auto ">
   <h1 className="text-2xl md:text-5xl font-bold text-gray-900 leading-loose mb-14">
     ¡Domina el inglés rápido! <br />
     <span className="text-white bg-gradient-to-r from-orange-400 to-red-500 py-1 rounded-lg shadow-lg transform transition-transform hover:scale-105">
@@ -85,40 +85,11 @@ export default function Home() {
     </span>
   </h1>
 
-  <div className="grid grid-cols-2 md:grid-cols-4 gap-1 mb-8 px-2">
-  <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex items-center justify-center rounded-lg transform animate-bounce delay-100">
-    <p className="text-sm md:text-base font-semibold flex items-center">
-      <span className="mr-2">🇪🇸</span> Aprende rápido como con el español.
-    </p>
-  </div>
-  <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex items-center justify-center rounded-lg transform animate-bounce delay-300">
-    <p className="text-sm md:text-base font-semibold flex items-center">
-      <span className="mr-2">🌍</span> Práctica inmersiva en escenarios reales.
-    </p>
-  </div>
-  <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex items-center justify-center rounded-lg transform animate-bounce delay-500">
-    <p className="text-sm md:text-base font-semibold flex items-center">
-      <span className="mr-2">🤖</span> IA que acelera tu aprendizaje.
-    </p>
-  </div>
-  <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex items-center justify-center rounded-lg transform animate-bounce delay-700">
-    <p className="text-sm md:text-base font-semibold flex items-center">
-      <span className="mr-2">⏱️</span> Habla inglés en tiempo récord.
-    </p>
-  </div>
-</div>
-
-
-
-
-
-
-  <div className="w-full  aspect-video mx-auto rounded-md shadow-md overflow-hidden">
+  <div className="w-full  aspect-video mx-auto rounded-md shadow-md overflow-hidden mb-3">
     <VideoPlayer />
   </div>
-</section>
 
-<div className="bg-yellow-400 text-black text-center py-6 px-5 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+  <div className="bg-yellow-400 text-black text-center mb-16 py-6 px-5 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
   <h3 className="text-xl md:text-3xl font-bold">
     🎁 Al final del video, descubre cómo obtener <span className="underline">tu sorpresa exclusiva</span>.
   </h3>
@@ -126,6 +97,30 @@ export default function Home() {
     Aprovecha esta oportunidad única para empezar tu camino hacia el éxito.
   </p>
 </div>
+
+  <div className="grid grid-cols-2 md:grid-cols-4 gap-1 px-2">
+  <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-bounce delay-100">
+    <span className="text-3xl mb-2">🇪🇸</span>
+    <p className="text-sm md:text-base font-semibold">Aprende rápido como con el español.</p>
+  </div>
+  <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-bounce delay-300">
+    <span className="text-3xl mb-2">🌍</span>
+    <p className="text-sm md:text-base font-semibold">Práctica inmersiva en escenarios reales.</p>
+  </div>
+  <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-bounce delay-500">
+    <span className="text-3xl mb-2">🤖</span>
+    <p className="text-sm md:text-base font-semibold">IA que acelera tu aprendizaje.</p>
+  </div>
+  <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-bounce delay-700">
+    <span className="text-3xl mb-2">⏱️</span>
+    <p className="text-sm md:text-base font-semibold">Habla inglés en tiempo récord.</p>
+  </div>
+</div>
+
+
+</section>
+
+
 
 
       {showMessage && (
