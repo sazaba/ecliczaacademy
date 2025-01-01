@@ -6,7 +6,7 @@ import VideoPlayer from './VideoPlayer';
 import Dolores from './dolores';
 import Testimonios from './testimonio';
 import HowToDoIt from './HowToDoIt';
-import FAQ from './FAQ';
+
 import Bonus from './Bonus';
 import Cta from './Cta';
 import Image from 'next/image';
@@ -15,6 +15,7 @@ import M1 from "./images/M1.webp"
 import Platform from './Platform';
 import GuaranteeBanner from './GuaranteeBanner';
 import FloatingUrgency from './FloatingUrgency';
+import FAQ from './FAQ';
 
 
 
