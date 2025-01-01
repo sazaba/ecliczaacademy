@@ -69,7 +69,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-2">
       
-      <div className="bg-gradient-to-br from-orange-400 to-red-500 text-white text-center py-8 px-1 mb-10 rounded-lg shadow-lg">
+      <div className="bg-gradient-to-br from-orange-400 to-red-500 text-white text-center py-8 px-2 mb-10 rounded-lg shadow-lg">
   <h2 className="text-2xl md:text-5xl font-extrabold uppercase tracking-wide">
     ¿Por qué seguir <span className="text-yellow-300">perdiendo tiempo</span> cuando puedes aprender inglés rápidamente?
   </h2>
