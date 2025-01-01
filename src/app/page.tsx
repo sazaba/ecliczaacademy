@@ -68,48 +68,47 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-2">
       
-      <div className="bg-gradient-to-br from-orange-400 to-red-500 text-white text-center py-8 px-6 mb-10 rounded-lg shadow-lg">
+      <div className="bg-gradient-to-br from-orange-400 to-red-500 text-white text-center py-8 mb-10 rounded-lg shadow-lg">
       <h2 className="text-3xl md:text-5xl font-extrabold uppercase tracking-wide">
     ¿Por qué esperar <span className="text-yellow-300">años</span> para aprender inglés?
   </h2>
 </div>
 
-<section className="text-center max-w-4xl mx-auto px-6 mb-12">
-<section className="text-center max-w-4xl mx-auto px-6 mb-12">
+<section className="text-center max-w-4xl mx-auto mb-12">
   <h1 className="text-2xl md:text-5xl font-bold text-gray-900 leading-loose mb-14">
     ¡Domina el inglés rápido! <br />
-    <span className="text-white bg-gradient-to-r from-orange-400 to-red-500 px-3 py-1 rounded-lg shadow-lg transform transition-transform hover:scale-105">
+    <span className="text-white bg-gradient-to-r from-orange-400 to-red-500 py-1 rounded-lg shadow-lg transform transition-transform hover:scale-105">
       Métodos inmersivos
     </span><br/>
-    <span className="text-white bg-gradient-to-r from-red-500 to-orange-400 px-3 py-1 rounded-lg shadow-lg transform transition-transform hover:scale-105">
+    <span className="text-white bg-gradient-to-r from-red-500 to-orange-400 py-1 rounded-lg shadow-lg transform transition-transform hover:scale-105">
      y resultados en semanas.
     </span>
   </h1>
 
-  <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
-  <div className="bg-yellow-400 text-black p-4 shadow-lg flex items-center justify-center rounded-lg transform animate-bounce delay-100">
+  <div className="grid grid-cols-2 md:grid-cols-4 gap-1 mb-8 px-2">
+  <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex items-center justify-center rounded-lg transform animate-bounce delay-100">
     <p className="text-sm md:text-base font-semibold flex items-center">
       <span className="mr-2">🇪🇸</span> Aprende rápido como con el español.
     </p>
   </div>
-  <div className="bg-yellow-400 text-black p-4 shadow-lg flex items-center justify-center rounded-lg transform animate-bounce delay-300">
+  <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex items-center justify-center rounded-lg transform animate-bounce delay-300">
     <p className="text-sm md:text-base font-semibold flex items-center">
       <span className="mr-2">🌍</span> Práctica inmersiva en escenarios reales.
     </p>
   </div>
-  <div className="bg-yellow-400 text-black p-4 shadow-lg flex items-center justify-center rounded-lg transform animate-bounce delay-500">
+  <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex items-center justify-center rounded-lg transform animate-bounce delay-500">
     <p className="text-sm md:text-base font-semibold flex items-center">
       <span className="mr-2">🤖</span> IA que acelera tu aprendizaje.
     </p>
   </div>
-  <div className="bg-yellow-400 text-black p-4 shadow-lg flex items-center justify-center rounded-lg transform animate-bounce delay-700">
+  <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex items-center justify-center rounded-lg transform animate-bounce delay-700">
     <p className="text-sm md:text-base font-semibold flex items-center">
       <span className="mr-2">⏱️</span> Habla inglés en tiempo récord.
     </p>
   </div>
 </div>
 
-</section>
+
 
 
 
