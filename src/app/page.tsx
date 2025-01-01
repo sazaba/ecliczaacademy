@@ -69,21 +69,20 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-2">
       
-      <div className="bg-gradient-to-br from-orange-400 to-red-500 text-white text-center py-8 mb-10 rounded-lg shadow-lg">
-      <h2 className="text-3xl md:text-5xl font-extrabold uppercase tracking-wide">
-    ¿Por qué esperar <span className="text-yellow-300">años</span> para aprender inglés?
+      <div className="bg-gradient-to-br from-orange-400 to-red-500 text-white text-center py-8 px-2 mb-10 rounded-lg shadow-lg">
+  <h2 className="text-3xl md:text-5xl font-extrabold uppercase tracking-wide">
+    ¿Por qué seguir <span className="text-yellow-300">perdiendo tiempo</span> cuando puedes aprender inglés rápidamente?
   </h2>
 </div>
 
-<section className="text-center max-w-4xl mx-auto ">
-  <h1 className="text-2xl md:text-5xl font-bold text-gray-900 leading-loose mb-14">
-    ¡Domina el inglés rápido! <br />
-    <span className="text-white bg-gradient-to-r from-orange-400 to-red-500 py-1 rounded-lg shadow-lg transform transition-transform hover:scale-105">
-      Métodos inmersivos
-    </span><br/>
-    <span className="text-white bg-gradient-to-r from-red-500 to-orange-400 py-1 rounded-lg shadow-lg transform transition-transform hover:scale-105">
-     y resultados en semanas.
-    </span>
+
+
+<section className="text-center max-w-4xl mx-auto px-6 mb-12">
+<h1 className="text-3xl md:text-6xl font-bold text-gray-900 leading-snug mb-6">
+  ¡El inglés <span className="text-orange-500 underline">no puede esperar</span> más! <br />
+  <span className="text-white bg-gradient-to-r from-orange-400 to-red-500 px-2 rounded-lg shadow-md">
+    Apréndelo rápido
+  </span> y alcanza tus metas en tiempo récord.
   </h1>
 
   <div className="w-full  aspect-video mx-auto rounded-md shadow-md overflow-hidden mb-3">
