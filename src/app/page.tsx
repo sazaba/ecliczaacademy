@@ -49,7 +49,7 @@ export default function Home() {
       setShowMessage(true);
       setShowCountdown(true);
       deadlineRef.current = new Date().getTime() + 24 * 60 * 60 * 1000; // Establece la fecha límite (24 horas)
-    }, 15000);
+    }, 20000);
   
     return () => clearTimeout(timer);
   }, []);
@@ -119,9 +119,6 @@ export default function Home() {
 
 
 </section>
-
-
-
 
       {showMessage && (
         <div className="message-container mt-6 bg-white  shadow-lg rounded-lg text-center">
