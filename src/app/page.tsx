@@ -76,7 +76,7 @@ export default function Home() {
 
 <section className="text-center max-w-4xl mx-auto px-6 mb-12">
 <section className="text-center max-w-4xl mx-auto px-6 mb-12">
-  <h1 className="text-3xl md:text-5xl font-bold text-gray-900 leading-loose mb-14">
+  <h1 className="text-2xl md:text-5xl font-bold text-gray-900 leading-loose mb-14">
     ¡Domina el inglés rápido! <br />
     <span className="text-white bg-gradient-to-r from-orange-400 to-red-500 px-3 py-1 rounded-lg shadow-lg transform transition-transform hover:scale-105">
       Métodos inmersivos
