@@ -156,10 +156,10 @@ export default function Home() {
           <FAQ/>
           <Cta onClick={scrollToExternalPage}/>
           <GuaranteeBanner/>
+          <Bonus/>
           <div ref={externalPageRef}>
             <ExternalPage />
           </div>
-          <Bonus/>
 
           {showCountdown && (
             <div className="hidden fixed bottom-4 left-1/2 transform -translate-x-1/2 bg-green-600 text-white py-2 px-4 rounded-full shadow-lg text-center text-xs z-50 animate-pulse">

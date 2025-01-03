@@ -10,7 +10,7 @@ const ExternalPage = () => {
         height="100%"
         style={{ border: 'none' }}
         title="External Content"
-        
+        scrolling="no" 
       />
     </div>
   );
