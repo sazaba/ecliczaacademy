@@ -1,14 +1,19 @@
 import React from "react";
 
-const Cta = () => {
+interface CtaProps {
+  onClick: () => void;
+}
+
+const Cta: React.FC<CtaProps> = ({ onClick }) => {
   return (
     <div className="cta-buttons mt-3 flex justify-center">
-      <a
-        href="https://hotm.art/gohRuaB"
+      {/* Botón que activa el scroll */}
+      <button
+        onClick={onClick}
         className="bg-green-500 text-white py-3 px-6 rounded-full text-base md:text-lg font-semibold transition-transform duration-500 ease-in-out hover:bg-green-700 w-full sm:w-auto text-center animate-persuade"
       >
         ¡SI QUIERO APRENDER INGLÉS!
-      </a>
+      </button>
 
       {/* Animación personalizada */}
       <style jsx>{`

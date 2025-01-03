@@ -16,16 +16,17 @@ import Platform from './Platform';
 import GuaranteeBanner from './GuaranteeBanner';
 import FloatingUrgency from './FloatingUrgency';
 import FAQ from './FAQ';
-
-
+import ExternalPage from './ExternalPage';
 
 export default function Home() {
-
   
   const [showMessage, setShowMessage] = useState(false);
   const [showCountdown, setShowCountdown] = useState(false);
   const deadlineRef = useRef<number | null>(null);
   const [timeLeft, setTimeLeft] = useState({ hours: 0, minutes: 0, seconds: 0 });
+
+  // Referencia para hacer scroll al componente ExternalPage
+  const externalPageRef = useRef<HTMLDivElement | null>(null);
 
   // Calculamos el tiempo restante en base a la fecha límite
   const calculateTimeLeft = () => {
@@ -44,6 +45,15 @@ export default function Home() {
     return { hours, minutes, seconds };
   };
 
+  // Función para hacer scroll hacia el componente ExternalPage
+  const scrollToExternalPage = () => {
+    if (externalPageRef.current) {
+      externalPageRef.current.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  };
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -54,78 +64,76 @@ export default function Home() {
   
     return () => clearTimeout(timer);
   }, []);
+
   // Iniciar el temporizador solo cuando se muestre la cuenta regresiva
   useEffect(() => {
     if (showCountdown) {
       const timer = setInterval(() => {
         setTimeLeft(calculateTimeLeft());
-        
       }, 1000);
 
       return () => clearInterval(timer); // Limpiamos el temporizador cuando el componente se desmonta o showCountdown cambia
     }
   }, [showCountdown]);
- 
+
   return (
     <main className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-2">
       
       <div className="bg-gradient-to-br from-orange-400 to-red-500 text-white text-center py-8 px-2 mb-10 rounded-lg shadow-lg">
-  <h2 className="text-2xl md:text-5xl font-extrabold uppercase tracking-wide">
-    ¿Por qué seguir <span className="text-yellow-300">perdiendo tiempo</span> cuando puedes aprender inglés rápidamente?
-  </h2>
-</div>
+        <h2 className="text-2xl md:text-5xl font-extrabold uppercase tracking-wide">
+          ¿Por qué seguir <span className="text-yellow-300">perdiendo tiempo</span> cuando puedes aprender inglés rápidamente?
+        </h2>
+      </div>
 
+      <section className="text-center max-w-4xl mx-auto px-6 mb-12">
+        <h1 className="text-3xl md:text-6xl font-bold text-gray-900 leading-snug mb-6">
+          ¡El inglés <span className="text-orange-500 underline">no puede esperar</span> más! <br />
+          <span className="text-white bg-gradient-to-r from-orange-400 to-red-500 px-2 rounded-lg shadow-md">
+            Apréndelo rápido
+          </span> y alcanza tus metas en tiempo récord.
+        </h1>
 
+        <div className="w-full aspect-video mx-auto rounded-md shadow-md overflow-hidden mb-3">
+          <VideoPlayer />
+        </div>
 
-<section className="text-center max-w-4xl mx-auto px-6 mb-12">
-<h1 className="text-3xl md:text-6xl font-bold text-gray-900 leading-snug mb-6">
-  ¡El inglés <span className="text-orange-500 underline">no puede esperar</span> más! <br />
-  <span className="text-white bg-gradient-to-r from-orange-400 to-red-500 px-2 rounded-lg shadow-md">
-    Apréndelo rápido
-  </span> y alcanza tus metas en tiempo récord.
-  </h1>
+        <div className="bg-yellow-400 text-black text-center mb-16 py-6 px-5 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+          <h3 className="text-xl md:text-3xl font-bold">
+            🎁 Al final del video, descubre cómo obtener <span className="underline">tu sorpresa exclusiva</span>.
+          </h3>
+          <p className="mt-2 text-sm md:text-base">
+            Aprovecha esta oportunidad única para empezar tu camino hacia el éxito.
+          </p>
+        </div>
 
-  <div className="w-full  aspect-video mx-auto rounded-md shadow-md overflow-hidden mb-3">
-    <VideoPlayer />
-  </div>
+        {/* Contenido adicional */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-1 px-2">
+          <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-bounce delay-100">
+            <span className="text-3xl mb-2">🇪🇸</span>
+            <p className="text-sm md:text-base font-semibold">Aprende rápido como con el español.</p>
+          </div>
+          <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-bounce delay-300">
+            <span className="text-3xl mb-2">🌍</span>
+            <p className="text-sm md:text-base font-semibold">Práctica inmersiva en escenarios reales.</p>
+          </div>
+          <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-bounce delay-500">
+            <span className="text-3xl mb-2">🤖</span>
+            <p className="text-sm md:text-base font-semibold">IA que acelera tu aprendizaje.</p>
+          </div>
+          <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-bounce delay-700">
+            <span className="text-3xl mb-2">⏱️</span>
+            <p className="text-sm md:text-base font-semibold">Habla inglés en tiempo récord.</p>
+          </div>
+        </div>
 
-  <div className="bg-yellow-400 text-black text-center mb-16 py-6 px-5 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-  <h3 className="text-xl md:text-3xl font-bold">
-    🎁 Al final del video, descubre cómo obtener <span className="underline">tu sorpresa exclusiva</span>.
-  </h3>
-  <p className="mt-2 text-sm md:text-base">
-    Aprovecha esta oportunidad única para empezar tu camino hacia el éxito.
-  </p>
-</div>
-
-  <div className="grid grid-cols-2 md:grid-cols-4 gap-1 px-2">
-  <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-bounce delay-100">
-    <span className="text-3xl mb-2">🇪🇸</span>
-    <p className="text-sm md:text-base font-semibold">Aprende rápido como con el español.</p>
-  </div>
-  <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-bounce delay-300">
-    <span className="text-3xl mb-2">🌍</span>
-    <p className="text-sm md:text-base font-semibold">Práctica inmersiva en escenarios reales.</p>
-  </div>
-  <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-bounce delay-500">
-    <span className="text-3xl mb-2">🤖</span>
-    <p className="text-sm md:text-base font-semibold">IA que acelera tu aprendizaje.</p>
-  </div>
-  <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-bounce delay-700">
-    <span className="text-3xl mb-2">⏱️</span>
-    <p className="text-sm md:text-base font-semibold">Habla inglés en tiempo récord.</p>
-  </div>
-</div>
-
-
-</section>
+      </section>
 
       {showMessage && (
-        <div className="message-container mt-6 bg-white  shadow-lg rounded-lg text-center">
-          <Cta/>
+        <div className="message-container mt-6 bg-white shadow-lg rounded-lg text-center">
+          <Cta onClick={scrollToExternalPage}/>
           <FloatingUrgency/>
           <Testimonios/>
-          <Cta/>
+          <Cta onClick={scrollToExternalPage}/>
           <div className="mt-3">
             <Image
               src={M5} // Cambia esta ruta por la de tu imagen
@@ -133,11 +141,10 @@ export default function Home() {
               className="w-full rounded-xl"
             />
           </div>
-          
           <Dolores/>
-          <Cta/>
+          <Cta onClick={scrollToExternalPage}/>
           <HowToDoIt/>
-          <Cta/>
+          <Cta onClick={scrollToExternalPage}/>
           <div className="mt-3 mb-3">
             <Image
               src={M1} // Cambia esta ruta por la de tu imagen
@@ -147,20 +154,21 @@ export default function Home() {
           </div>
           <Platform/>
           <FAQ/>
-          <Cta/>
+          <Cta onClick={scrollToExternalPage}/>
           <GuaranteeBanner/>
+          <div ref={externalPageRef}>
+            <ExternalPage />
+          </div>
           <Bonus/>
-          
 
           {showCountdown && (
-  <div className="hidden fixed bottom-4 left-1/2 transform -translate-x-1/2 bg-green-600 text-white py-2 px-4 rounded-full shadow-lg text-center text-xs z-50 animate-pulse">
-    ⏳ ¡Oferta Especial! Tiempo restante:{" "}
-    <span className="font-bold">
-      {timeLeft.hours}h {timeLeft.minutes}m {timeLeft.seconds}s
-    </span>
-  </div>
-)}
-
+            <div className="hidden fixed bottom-4 left-1/2 transform -translate-x-1/2 bg-green-600 text-white py-2 px-4 rounded-full shadow-lg text-center text-xs z-50 animate-pulse">
+              ⏳ ¡Oferta Especial! Tiempo restante:{" "}
+              <span className="font-bold">
+                {timeLeft.hours}h {timeLeft.minutes}m {timeLeft.seconds}s
+              </span>
+            </div>
+          )}
         </div>
       )}
     </main>
