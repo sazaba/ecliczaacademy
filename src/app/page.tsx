@@ -25,8 +25,6 @@ export default function Home() {
   const deadlineRef = useRef<number | null>(null);
   const [timeLeft, setTimeLeft] = useState({ hours: 0, minutes: 0, seconds: 0 });
 
-  // Referencia para hacer scroll al componente ExternalPage
-  const externalPageRef = useRef<HTMLDivElement | null>(null);
 
   // Calculamos el tiempo restante en base a la fecha límite
   const calculateTimeLeft = () => {
