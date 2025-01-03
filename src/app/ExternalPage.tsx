@@ -16,3 +16,4 @@ const ExternalPage = () => {
 };
 
 export default ExternalPage;
+

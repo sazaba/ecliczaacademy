@@ -1,6 +1,6 @@
 
 import React from "react";
-import Cta from "./Cta";
+
 
 const Bonus = () => {
   return (
@@ -106,7 +106,6 @@ const Bonus = () => {
           </p>
         </div>
       </div>
-      <Cta/>
     </section>
   );
 };
