@@ -95,8 +95,8 @@ export default function Home() {
           </p>
         </div>
 
-        Contenido adicional
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-1 px-2">
+      
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-1 px-2 mt-16">
           <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-bounce delay-100">
             <span className="text-3xl mb-2">🇪🇸</span>
             <p className="text-sm md:text-base font-semibold">Aprende rápido como con el español.</p>
@@ -118,7 +118,7 @@ export default function Home() {
       </section>
 
       {showMessage && (
-        <div className="message-container mt-6 bg-white shadow-lg rounded-lg text-center">
+        <div className="message-container mt-0 bg-white shadow-lg rounded-lg text-center">
           <Cta />
           <FloatingUrgency/>
           <Testimonios/>
