@@ -16,7 +16,7 @@ import Platform from './Platform';
 import GuaranteeBanner from './GuaranteeBanner';
 import FloatingUrgency from './FloatingUrgency';
 import FAQ from './FAQ';
-import ExternalPage from './ExternalPage';
+
 
 export default function Home() {
   
@@ -45,15 +45,6 @@ export default function Home() {
     return { hours, minutes, seconds };
   };
 
-  // Función para hacer scroll hacia el componente ExternalPage
-  const scrollToExternalPage = () => {
-    if (externalPageRef.current) {
-      externalPageRef.current.scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-      });
-    }
-  };
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -106,7 +97,7 @@ export default function Home() {
           </p>
         </div>
 
-        {/* Contenido adicional
+        Contenido adicional
         <div className="grid grid-cols-2 md:grid-cols-4 gap-1 px-2">
           <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-bounce delay-100">
             <span className="text-3xl mb-2">🇪🇸</span>
@@ -124,7 +115,7 @@ export default function Home() {
             <span className="text-3xl mb-2">⏱️</span>
             <p className="text-sm md:text-base font-semibold">Habla inglés en tiempo récord.</p>
           </div>
-        </div> */}
+        </div>
 
       </section>
 
