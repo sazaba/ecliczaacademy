@@ -130,10 +130,10 @@ export default function Home() {
 
       {showMessage && (
         <div className="message-container mt-6 bg-white shadow-lg rounded-lg text-center">
-          <Cta onClick={scrollToExternalPage}/>
+          <Cta />
           <FloatingUrgency/>
           <Testimonios/>
-          <Cta onClick={scrollToExternalPage}/>
+          <Cta />
           <div className="mt-3">
             <Image
               src={M5} // Cambia esta ruta por la de tu imagen
@@ -142,9 +142,9 @@ export default function Home() {
             />
           </div>
           <Dolores/>
-          <Cta onClick={scrollToExternalPage}/>
+          <Cta />
           <HowToDoIt/>
-          <Cta onClick={scrollToExternalPage}/>
+          <Cta />
           <div className="mt-3 mb-3">
             <Image
               src={M1} // Cambia esta ruta por la de tu imagen
@@ -154,12 +154,10 @@ export default function Home() {
           </div>
           <Platform/>
           <FAQ/>
-          <Cta onClick={scrollToExternalPage}/>
+          <Cta />
           <GuaranteeBanner/>
           <Bonus/>
-          <div ref={externalPageRef}>
-            <ExternalPage />
-          </div>
+          
 
           {showCountdown && (
             <div className="hidden fixed bottom-4 left-1/2 transform -translate-x-1/2 bg-green-600 text-white py-2 px-4 rounded-full shadow-lg text-center text-xs z-50 animate-pulse">

@@ -1,5 +1,6 @@
 
 import React from "react";
+import Cta from "./Cta";
 
 
 const Bonus = () => {
@@ -106,6 +107,7 @@ const Bonus = () => {
           </p>
         </div>
       </div>
+      <Cta />
     </section>
   );
 };
