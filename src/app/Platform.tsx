@@ -15,9 +15,21 @@ const Platform: React.FC = () => {
           que necesitas para alcanzar tus metas en inglés.
         </p>
 
+        {/* Video de YouTube Short */}
+        <div className="relative max-w-4xl mx-auto mb-8">
+          <div className="aspect-w-16 aspect-h-9">
+            <iframe
+              src="https://www.youtube.com/embed/35tN7vjLwkY"
+              title="YouTube Short"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="w-full h-full rounded-3xl"
+            ></iframe>
+          </div>
+        </div>
+
         {/* Imagen de la plataforma */}
         <div className="relative max-w-4xl mx-auto p-4 bg-white rounded-3xl shadow-2xl">
-          {/* Agregamos un fondo blanco, borde y sombra */}
           <div className="relative overflow-hidden rounded-3xl">
             <Image
               src={Hp}
