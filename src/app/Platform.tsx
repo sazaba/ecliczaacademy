@@ -16,14 +16,14 @@ const Platform: React.FC = () => {
         </p>
 
         {/* Video de YouTube Short */}
-        <div className="relative max-w-4xl mx-auto mb-8">
-          <div className="aspect-w-16 aspect-h-9">
+        <div className="relative max-w-lg mx-auto mb-8">
+          <div className="w-full" style={{ paddingBottom: "177.78%" /* Aspecto 9:16 */ }}>
             <iframe
               src="https://www.youtube.com/embed/35tN7vjLwkY"
               title="YouTube Short"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
-              className="w-full h-full rounded-3xl"
+              className="absolute top-0 left-0 w-full h-full rounded-3xl"
             ></iframe>
           </div>
         </div>
@@ -48,4 +48,3 @@ const Platform: React.FC = () => {
 };
 
 export default Platform;
-
