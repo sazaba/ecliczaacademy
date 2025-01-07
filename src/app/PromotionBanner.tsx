@@ -31,9 +31,10 @@ const PromotionBanner = () => {
       <p className="text-lg md:text-2xl mt-4 font-semibold">
         El descuento termina <span className="text-yellow-400 animate-pulse">mañana</span>:
       </p>
-      <p className="text-xl md:text-3xl mt-2 font-bold text-yellow-300 bg-black bg-opacity-50 px-4 py-2 inline-block rounded-lg shadow-md">
-        {getTomorrow()}
-      </p>
+      <p className="text-xl md:text-3xl mt-2 font-bold text-yellow-300 bg-black bg-opacity-50 px-4 py-2 inline-block rounded-lg shadow-md animate-pulse">
+  {getTomorrow()}
+</p>
+
     </div>
   );
 };

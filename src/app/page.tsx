@@ -17,6 +17,7 @@ import GuaranteeBanner from './GuaranteeBanner';
 import FloatingUrgency from './FloatingUrgency';
 import FAQ from './FAQ';
 import PromotionBanner from './PromotionBanner';
+import UrgencyTag from './UrgencyTag';
 
 
 export default function Home() {
@@ -129,6 +130,7 @@ export default function Home() {
           <FloatingUrgency/>
           <Testimonios/>
           <Cta />
+          <UrgencyTag/>
           <div className="mt-3">
             <Image
               src={M5} // Cambia esta ruta por la de tu imagen
@@ -138,8 +140,10 @@ export default function Home() {
           </div>
           <Dolores/>
           <Cta />
+          <UrgencyTag/>
           <HowToDoIt/>
           <Cta />
+          <UrgencyTag/>
           <div className="mt-3 mb-3">
             <Image
               src={M1} // Cambia esta ruta por la de tu imagen
@@ -150,6 +154,7 @@ export default function Home() {
           <Platform/>
           <FAQ/>
           <Cta />
+          <UrgencyTag/>
           <GuaranteeBanner/>
           <Bonus/>
           
