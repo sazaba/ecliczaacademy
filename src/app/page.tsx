@@ -68,19 +68,23 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-2">
       
-      <div className="bg-gradient-to-br from-orange-400 to-red-500 text-white text-center py-8 px-2 mb-10 rounded-lg shadow-lg">
-        <h2 className="text-2xl md:text-5xl font-extrabold uppercase tracking-wide">
-          ¿Por qué seguir <span className="text-yellow-300">perdiendo tiempo</span> cuando puedes aprender inglés rápidamente?
-        </h2>
-      </div>
+      <div className="bg-gradient-to-br from-red-600 to-black text-white text-center py-8 px-2 mb-10 rounded-lg shadow-lg">
+  <h2 className="text-2xl md:text-5xl font-extrabold uppercase tracking-wide">
+    ¿Cuánto tiempo más <span className="text-yellow-400">vas a seguir fracasando</span> con métodos aburridos?
+  </h2>
+</div>
 
-      <section className="text-center max-w-4xl mx-auto px-6 mb-12">
-        <h1 className="text-3xl md:text-6xl font-bold text-gray-900 leading-snug mb-6">
-          ¡El inglés <span className="text-orange-500 underline">no puede esperar</span> más! <br />
-          <span className="text-white bg-gradient-to-r from-orange-400 to-red-500 px-2 rounded-lg shadow-md">
-            Apréndelo rápido
-          </span> y alcanza tus metas en tiempo récord.
-        </h1>
+<section className="text-center max-w-4xl mx-auto px-6 mb-12">
+  <h1 className="text-2xl md:text-6xl font-bold text-gray-900 leading-snug mb-6">
+    ¡El inglés no se aprende sentado memorizando reglas! <br />
+    <span className="text-white bg-gradient-to-r from-red-600 to-black px-2 rounded-lg shadow-md text-sm">
+      Métodos tradicionales = Tiempo perdido
+    </span> <br />
+    Descubre cómo <span className="text-red-500 underline">aprender inmersivamente</span> puede cambiar tu vida en semanas, no años.
+  </h1>
+
+
+
 
         <div className="w-full aspect-video mx-auto rounded-md shadow-md overflow-hidden mb-3">
           <VideoPlayer />

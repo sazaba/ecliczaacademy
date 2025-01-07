@@ -15,20 +15,10 @@ const Platform: React.FC = () => {
           que necesitas para alcanzar tus metas en inglés.
         </p>
 
-        {/* Video de YouTube Short */}
-        <div className="relative max-w-lg mx-auto mb-8">
-          <div className="w-full" style={{ paddingBottom: "177.78%" /* Aspecto 9:16 */ }}>
-            <iframe
-              src="https://www.youtube.com/embed/35tN7vjLwkY"
-              title="YouTube Short"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              className="absolute top-0 left-0 w-full h-full rounded-3xl"
-            ></iframe>
-          </div>
-        </div>
+        
+        
 
-        {/* Imagen de la plataforma */}
+        
         <div className="relative max-w-4xl mx-auto p-4 bg-white rounded-3xl shadow-2xl">
           <div className="relative overflow-hidden rounded-3xl">
             <Image
