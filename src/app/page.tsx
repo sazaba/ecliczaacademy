@@ -16,6 +16,7 @@ import Platform from './Platform';
 import GuaranteeBanner from './GuaranteeBanner';
 import FloatingUrgency from './FloatingUrgency';
 import FAQ from './FAQ';
+import PromotionBanner from './PromotionBanner';
 
 
 export default function Home() {
@@ -79,7 +80,7 @@ export default function Home() {
     ¡El inglés no se aprende sentado memorizando reglas! <br />
     <span className="text-white bg-gradient-to-r from-red-600 to-black px-2 rounded-lg shadow-md text-sm">
       Métodos tradicionales = Tiempo perdido
-    </span> <br />
+    </span> <br/>
     Descubre cómo <span className="text-red-500 underline">aprender inmersivamente</span> puede cambiar tu vida en semanas, no años.
   </h1>
 
@@ -123,6 +124,7 @@ export default function Home() {
 
       {showMessage && (
         <div className="message-container mt-0 bg-white shadow-lg rounded-lg text-center">
+          <PromotionBanner/>
           <Cta />
           <FloatingUrgency/>
           <Testimonios/>
