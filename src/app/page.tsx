@@ -71,19 +71,21 @@ export default function Home() {
     <main className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-2">
       
       <div className="bg-gradient-to-br from-red-600 to-black text-white text-center py-8 px-2 mb-10 rounded-lg shadow-lg">
-  <h2 className="text-2xl md:text-5xl font-extrabold uppercase tracking-wide">
-    ¿Cuánto tiempo más <span className="text-yellow-400">vas a seguir fracasando</span> con métodos aburridos?
-  </h2>
+      <h2 className="text-2xl md:text-5xl font-extrabold uppercase tracking-wide">
+    ¿Hasta cuándo <span className="text-yellow-400">seguirás atrapado</span> en métodos que no funcionan?
+</h2>
+
 </div>
 
 <section className="text-center max-w-4xl mx-auto px-6 mb-12">
   <h1 className="text-2xl md:text-6xl font-bold text-gray-900 leading-snug mb-6">
-    ¡El inglés no se aprende sentado memorizando reglas! <br />
+    ¡Aprender inglés puede ser rápido, divertido y efectivo! <br />
     <span className="text-white bg-gradient-to-r from-red-600 to-black px-2 rounded-lg shadow-md text-sm">
-      Métodos tradicionales = Tiempo perdido
+      Métodos aburridos = Resultados lentos
     </span> <br/>
-    Descubre cómo <span className="text-red-500 underline">aprender inmersivamente</span> puede cambiar tu vida en semanas, no años.
+    Descubre nuestro <span className="text-red-500 underline">método inmersivo</span> con técnicas innovadoras que harán que avances en semanas, no años.
   </h1>
+
 
 
 
