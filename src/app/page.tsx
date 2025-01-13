@@ -16,7 +16,7 @@ import Platform from './Platform';
 import GuaranteeBanner from './GuaranteeBanner';
 import FloatingUrgency from './FloatingUrgency';
 import FAQ from './FAQ';
-import PromotionBanner from './PromotionBanner';
+
 import UrgencyTag from './UrgencyTag';
 import SalesPsychologyComponent from './SalesPsychologyComponent';
 
