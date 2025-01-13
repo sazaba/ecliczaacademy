@@ -18,6 +18,7 @@ import FloatingUrgency from './FloatingUrgency';
 import FAQ from './FAQ';
 import PromotionBanner from './PromotionBanner';
 import UrgencyTag from './UrgencyTag';
+import SalesPsychologyComponent from './SalesPsychologyComponent';
 
 
 export default function Home() {
@@ -71,20 +72,23 @@ export default function Home() {
     <main className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-2">
       
       <div className="bg-gradient-to-br from-red-600 to-black text-white text-center py-8 px-2 mb-10 rounded-lg shadow-lg">
-      <h2 className="text-2xl md:text-5xl font-extrabold uppercase tracking-wide">
-    ¿Hasta cuándo <span className="text-yellow-400">seguirás atrapado</span> en métodos que no funcionan?
-</h2>
-
+  <h1 className="text-4xl sm:text-5xl font-extrabold mb-6 leading-tight">
+    ¿Quieres hablar inglés <span className="text-yellow-300">en tiempo récord? ⏳</span>
+  </h1>
 </div>
 
-<section className="text-center max-w-4xl mx-auto px-6 mb-12">
-  <h1 className="text-2xl md:text-6xl font-bold text-gray-900 leading-snug mb-6">
-    ¡Aprender inglés puede ser rápido, divertido y efectivo! <br />
-    <span className="text-white bg-gradient-to-r from-red-600 to-black px-2 rounded-lg shadow-md text-sm">
-      Métodos aburridos = Resultados lentos
-    </span> <br/>
-    Descubre nuestro <span className="text-red-500 underline">método inmersivo</span> con técnicas innovadoras que harán que avances en semanas, no años.
-  </h1>
+
+<section className="text-center max-w-4xl mx-auto px-1 mb-9">
+<h1 className="text-2xl md:text-6xl font-bold text-gray-900 leading-snug mb-6">
+  ¡⏰ Es hora de dejar de perder tiempo! <br />
+  <span className="text-white bg-gradient-to-r from-teal-500 to-blue-600 px-2 rounded-lg shadow-md text-sm">
+    Los métodos lentos solo traen frustración. 😩
+  </span> <br/>
+  Con nuestro <span className="text-teal-500 underline">método inmersivo</span>, aprenderás rápido y de verdad, ¡en solo semanas! 🚀
+</h1>
+
+
+
 
 
 
@@ -104,7 +108,7 @@ export default function Home() {
         </div>
 
       
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-1 px-2 mt-16">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-1 px-1 mt-16">
           <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-bounce delay-100">
             <span className="text-3xl mb-2">🇪🇸</span>
             <p className="text-sm md:text-base font-semibold">Aprende rápido como con el español.</p>
@@ -127,12 +131,12 @@ export default function Home() {
 
       {showMessage && (
         <div className="message-container mt-0 bg-white shadow-lg rounded-lg text-center">
-          <PromotionBanner/>
+          {/* <PromotionBanner/> */}
           <Cta />
           <FloatingUrgency/>
           <Testimonios/>
+          <SalesPsychologyComponent/>
           <Cta />
-          <UrgencyTag/>
           <div className="mt-3">
             <Image
               src={M5} // Cambia esta ruta por la de tu imagen

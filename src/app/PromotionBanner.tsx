@@ -45,7 +45,7 @@ const PromotionBanner = () => {
       </p>
       <p className="text-sm md:text-lg mt-4 font-medium">
         A las 12:00 PM, el precio vuelve a ser{' '}
-        <span className="text-red-700 font-bold animate-bounce">$1000 USD</span>.
+        <span className="text-red-700 font-bold animate-bounce">$4.465.000</span>.
       </p>
     </div>
   );

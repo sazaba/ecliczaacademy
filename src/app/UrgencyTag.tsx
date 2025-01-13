@@ -5,13 +5,13 @@ const UrgencyTag = () => {
 
   const calculateTimeLeft = () => {
     const now = new Date();
-    const midnight = new Date(now);
-    midnight.setHours(24, 0, 0, 0); // Configura la hora para las 12:00 AM de mañana
+    const targetTime = new Date(now);
+    targetTime.setHours(now.getHours() + 2, 0, 0, 0); // Establecer el objetivo a 2 horas de ahora
 
-    const difference = midnight.getTime() - now.getTime(); // Diferencia en milisegundos
+    const difference = targetTime.getTime() - now.getTime(); // Diferencia en milisegundos
 
     if (difference <= 0) {
-      return '00:00:00'; // Si ya es medianoche, mostrar 00:00:00
+      return '00:00:00'; // Si ya pasaron las 2 horas, mostrar 00:00:00
     }
 
     const hours = String(Math.floor((difference / (1000 * 60 * 60)) % 24)).padStart(2, '0');
@@ -38,14 +38,15 @@ const UrgencyTag = () => {
         <span className="text-yellow-300 font-bold animate-pulse">
           {timeLeft}
         </span>
-        ! A las 12:00 PM, el precio vuelve a ser{' '}
+        {' '}el precio vuelve a ser{' '}
         <span className="text-yellow-300 font-bold animate-bounce">
-          $1000 USD
+          $4.465.000
         </span>
-        {' '} aprovecha las ultimas horas.
+        {' '} ¡Aprovecha las últimas horas!
       </p>
     </div>
   );
 };
 
 export default UrgencyTag;
+
