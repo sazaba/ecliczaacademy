@@ -71,7 +71,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-2">
       
-      <div className="bg-gradient-to-br from-red-600 to-black text-white text-center py-8 px-2 mb-10 rounded-lg shadow-lg">
+      <div className="bg-gradient-to-br from-red-600 to-black text-white text-center py-2 px-2 mb-10 rounded-lg shadow-lg">
   <h1 className="text-4xl sm:text-5xl font-extrabold mb-6 leading-tight p-2">
     ¿Frustrado con <span className="text-yellow-300">métodos lentos</span>? 😩
   </h1>
