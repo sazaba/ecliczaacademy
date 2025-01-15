@@ -72,20 +72,18 @@ export default function Home() {
     <main className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-2">
       
       <div className="bg-gradient-to-br from-red-600 to-black text-white text-center py-8 px-2 mb-10 rounded-lg shadow-lg">
-  <h1 className="text-4xl sm:text-5xl font-extrabold mb-6 leading-tight">
-    ¿Quieres hablar inglés <span className="text-yellow-300">en tiempo récord? ⏳</span>
+  <h1 className="text-4xl sm:text-5xl font-extrabold mb-6 leading-tight p-2">
+    ¿Frustrado con <span className="text-yellow-300">métodos lentos</span>? 😩
   </h1>
 </div>
 
+<section className="text-center max-w-4xl mx-auto px-2 mb-9">
+  <h1 className="text-xl md:text-6xl font-bold text-gray-900 leading-snug mb-6">
+    💡 Métodos tradicionales = años de esfuerzo y frustración. <br /><br />
+    🚀 <span className="text-teal-500 underline">Nuestra solución:</span> Aprende 8 veces más rápido con práctica inmersiva y resultados reales en semanas. 🌟
+  </h1>
 
-<section className="text-center max-w-4xl mx-auto px-1 mb-9">
-<h1 className="text-2xl md:text-6xl font-bold text-gray-900 leading-snug mb-6">
-  ¡⏰ Es hora de dejar de perder tiempo! <br />
-  <span className="text-white bg-gradient-to-r from-teal-500 to-blue-600 px-2 rounded-lg shadow-md text-sm">
-    Los métodos lentos solo traen frustración. 😩
-  </span> <br/>
-  Con nuestro <span className="text-teal-500 underline">método inmersivo</span>, aprenderás rápido y de verdad, ¡en solo semanas! 🚀
-</h1>
+
 
 
 
