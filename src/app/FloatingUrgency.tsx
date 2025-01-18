@@ -22,7 +22,7 @@ const FloatingUrgency = () => {
   }, []);
 
   return (
-    <div className="z-50 fixed bottom-4 left-1/2 transform -translate-x-1/2 bg-red-600 text-white text-xs md:text-sm font-bold py-2 px-4 rounded-lg shadow-lg border border-red-700 transition-transform duration-500 hover:scale-105 flex items-center justify-between space-x-4 w-[90%] max-w-xl animate-pulse">
+    <div className="z-100 fixed bottom-4 left-1/2 transform -translate-x-1/2 bg-red-600 text-white text-xs md:text-sm font-bold py-2 px-4 rounded-lg shadow-lg border border-red-700 transition-transform duration-500 hover:scale-105 flex items-center justify-between space-x-4 w-[90%] max-w-xl animate-pulse">
       <span>🔥</span>
       <span className="flex-grow text-center">
         <strong>{viewers}</strong> personas están viendo esto ahora. Quedan <strong>{slots}</strong> cupos disponibles.

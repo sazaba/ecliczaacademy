@@ -71,25 +71,50 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-2">
       
-      <div className="bg-gradient-to-br from-red-600 to-black text-white text-center py-2 px-2 mb-10 rounded-lg shadow-lg">
-  <h1 className="text-4xl sm:text-5xl font-extrabold mb-6 leading-tight p-2">
-    ¿Frustrado con <span className="text-yellow-300">métodos lentos</span>? 😩
+      <div className="bg-gradient-to-br from-red-600 to-black text-white text-center py-4 px-4 mb-10 rounded-lg shadow-lg animate-pulse">
+  <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight px-4 py-6 animate-color-change">
+    ¿Frustrado con <span className="animate-span-color">métodos lentos</span>? 😩
   </h1>
 </div>
 
-<section className="text-center max-w-4xl mx-auto px-2 mb-9">
-  <h1 className="text-xl md:text-6xl font-bold text-gray-900 leading-snug mb-6">
+<style>
+{`
+  @keyframes color-change {
+    0% { color: #ffffff; } /* Blanco */
+    25% { color: #FFA500; } /* Naranja vibrante */
+    50% { color: #000000; } /* Negro */
+    75% { color: #FFA500; } /* Naranja vibrante */
+    100% { color: #ffffff; } /* Blanco */
+  }
+
+  @keyframes span-color-change {
+    0% { color: #ffcc00; } /* Amarillo */
+    25% { color: #0077ff; } /* Azul brillante */
+    50% { color: #ffcc00; } /* Amarillo */
+    75% { color: #0077ff; } /* Azul brillante */
+    100% { color: #ffcc00; } /* Amarillo */
+  }
+
+  .animate-color-change {
+    animation: color-change 3s infinite ease-in-out;
+  }
+
+  .animate-span-color {
+    animation: span-color-change 3s infinite ease-in-out;
+  }
+`}
+</style>
+
+
+
+
+
+
+<section className="text-center max-w-4xl mx-auto px-2 mb-5">
+  <h1 className="text-xl md:text-6xl font-bold text-gray-900 leading-snug mb-4">
     💡 Métodos tradicionales = años de esfuerzo y frustración. <br /><br />
     🚀 <span className="text-teal-500 underline">Nuestra solución:</span> Aprende 8 veces más rápido con práctica inmersiva y resultados reales en semanas. 🌟
   </h1>
-
-
-
-
-
-
-
-
 
 
         <div className="w-full aspect-video mx-auto rounded-md shadow-md overflow-hidden mb-3">
@@ -107,23 +132,67 @@ export default function Home() {
 
       
         <div className="grid grid-cols-2 md:grid-cols-4 gap-1 px-1 mt-16">
-          <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-bounce delay-100">
-            <span className="text-3xl mb-2">🇪🇸</span>
-            <p className="text-sm md:text-base font-semibold">Aprende rápido como con el español.</p>
-          </div>
-          <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-bounce delay-300">
-            <span className="text-3xl mb-2">🌍</span>
-            <p className="text-sm md:text-base font-semibold">Práctica inmersiva en escenarios reales.</p>
-          </div>
-          <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-bounce delay-500">
-            <span className="text-3xl mb-2">🤖</span>
-            <p className="text-sm md:text-base font-semibold">IA que acelera tu aprendizaje.</p>
-          </div>
-          <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-bounce delay-700">
-            <span className="text-3xl mb-2">⏱️</span>
-            <p className="text-sm md:text-base font-semibold">Habla inglés en tiempo récord.</p>
-          </div>
-        </div>
+  <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-zoom delay-100">
+    <span className="text-3xl mb-2">🇪🇸</span>
+    <p className="text-sm md:text-base font-semibold">Aprende rápido como con el español.</p>
+  </div>
+  <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-300">
+    <span className="text-3xl mb-2">🌍</span>
+    <p className="text-sm md:text-base font-semibold">Práctica inmersiva en escenarios reales.</p>
+  </div>
+  <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-rotate delay-500">
+    <span className="text-3xl mb-2">🤖</span>
+    <p className="text-sm md:text-base font-semibold">IA que acelera tu aprendizaje.</p>
+  </div>
+  <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-float delay-700">
+    <span className="text-3xl mb-2">⏱️</span>
+    <p className="text-sm md:text-base font-semibold">Habla inglés en tiempo récord.</p>
+  </div>
+</div>
+
+<style>
+{`
+  @keyframes zoom {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+
+  @keyframes slide-up {
+    0% { transform: translateY(20px); opacity: 0; }
+    50% { transform: translateY(-10px); opacity: 1; }
+    100% { transform: translateY(0); }
+  }
+
+  @keyframes rotate {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(10deg); }
+    100% { transform: rotate(0deg); }
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+
+  .animate-zoom {
+    animation: zoom 2s infinite ease-in-out;
+  }
+
+  .animate-slide-up {
+    animation: slide-up 2.5s infinite ease-in-out;
+  }
+
+  .animate-rotate {
+    animation: rotate 2.5s infinite ease-in-out;
+  }
+
+  .animate-float {
+    animation: float 3s infinite ease-in-out;
+  }
+`}
+</style>
+
 
       </section>
 
