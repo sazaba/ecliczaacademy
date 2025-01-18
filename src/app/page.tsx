@@ -70,7 +70,8 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-2">
-      
+
+
       <div className="bg-blue-500 text-white text-center py-4 px-4 mb-10 rounded-lg shadow-lg">
   <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight px-4 py-6">
     <span className="text-6xl sm:text-7xl md:text-8xl font-extrabold animate-pulse">BASTA YA!</span><br/> de <span className="text-yellow-500 text-4xl sm:text-5xl md:text-6xl font-extrabold">métodos</span> que te mantienen en el mismo lugar! 
@@ -78,15 +79,17 @@ export default function Home() {
 </div>
 
 <section className="text-center max-w-4xl mx-auto px-2 mb-5">
+<div className="w-full aspect-video mx-auto rounded-md shadow-md overflow-hidden mb-10">
+          <VideoPlayer />
+        </div>
+      
   <h1 className="text-xl md:text-6xl font-bold text-gray-900 leading-snug mb-4">
     💡 Métodos tradicionales = años de esfuerzo y frustración. <br /><br />
     🚀 <span className="text-teal-500 underline">Nuestra solución:</span> Aprende 8 veces más rápido con práctica inmersiva y resultados reales en semanas. 🌟
   </h1>
 
 
-        <div className="w-full aspect-video mx-auto rounded-md shadow-md overflow-hidden mb-3">
-          <VideoPlayer />
-        </div>
+        
 
         <div className="bg-yellow-400 text-black text-center  py-6 px-5 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
           <h3 className="text-xl md:text-3xl font-bold">
