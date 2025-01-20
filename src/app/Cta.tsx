@@ -2,27 +2,27 @@ import React from "react";
 
 const Cta = () => {
   return (
-    <div className="cta-buttons mt-3 flex justify-center">
+    <div className="cta-buttons mt-6 flex justify-center">
       <a
         href="https://pay.hotmart.com/N93858012D?checkoutMode=10"
-        className="bg-green-500 text-white py-3 px-6 rounded-full text-base md:text-lg font-semibold transition-transform duration-500 ease-in-out hover:bg-green-700 w-full sm:w-auto text-center animate-persuade"
+        className="bg-orange-500 text-white py-4 px-8 rounded-full text-lg md:text-xl font-bold shadow-lg transform transition-all duration-500 ease-in-out hover:bg-orange-600 hover:scale-105 hover:shadow-2xl w-full sm:w-auto text-center animate-bounce-persuade"
       >
-        ¡SI QUIERO APRENDER INGLÉS!
+        ¡QUIERO HABLAR INGLÉS COMO UN EXPERTO!
       </a>
 
       {/* Animación personalizada */}
       <style jsx>{`
-        @keyframes persuade {
+        @keyframes bounce-persuade {
           0%, 100% {
-            transform: rotate(-3deg);
+            transform: translateY(0) rotate(-2deg);
           }
           50% {
-            transform: rotate(3deg);
+            transform: translateY(-5px) rotate(2deg);
           }
         }
 
-        .animate-persuade {
-          animation: persuade 1s infinite;
+        .animate-bounce-persuade {
+          animation: bounce-persuade 1.5s infinite;
         }
       `}</style>
     </div>

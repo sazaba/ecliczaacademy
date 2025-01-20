@@ -39,8 +39,8 @@ const SalesPsychologyComponent = () => {
         <span className="text-2xl line-through text-gray-200 font-semibold">
           <span className="text-xl">Antes: </span>₲ 4.465.000
         </span>
-        <span className="text-3xl font-bold text-yellow-300">
-          <span className="text-xl">¡Ahora: </span>₲ 152.000
+        <span className="text-3xl font-bold text-green-400">
+          <span className="text-xl">¡Ahora: </span>₲ 350.000
         </span>
       </div>
       <div className="bg-white text-gray-900 p-4 rounded-lg shadow-md mb-8">

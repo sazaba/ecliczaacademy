@@ -72,11 +72,18 @@ export default function Home() {
     <main className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-2">
 
 
-      <div className="bg-blue-500 text-white text-center py-4 px-4 mb-10 rounded-lg shadow-lg">
+<div className="bg-gradient-to-r from-green-600 to-teal-500 text-white text-center py-6 px-6 mb-10 rounded-lg shadow-lg">
   <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight px-4 py-6">
-    <span className="text-6xl sm:text-7xl md:text-8xl font-extrabold animate-pulse">BASTA YA!</span><br/> de <span className="text-yellow-500 text-4xl sm:text-5xl md:text-6xl font-extrabold">métodos</span> que te mantienen en el mismo lugar! 
+    <span className="text-6xl sm:text-7xl md:text-8xl font-extrabold animate-pulse">¡BASTA YA!</span><br />
+    de <span className="text-yellow-300 text-4xl sm:text-5xl md:text-6xl font-extrabold">intentar sin resultados</span>. 
+    Habla inglés como un <span className="text-teal-300 font-extrabold">experto</span>.
   </h1>
+  <p className="text-lg sm:text-xl md:text-2xl font-semibold mt-4">
+    Aprende inglés como <span className="text-yellow-300 font-bold">Maluma</span> y <span className="text-yellow-300 font-bold">J Balvin</span> con nuestros métodos inmersivos.
+  </p>
 </div>
+
+
 
 <section className="text-center max-w-4xl mx-auto px-2 mb-5">
 <div className="w-full aspect-video mx-auto rounded-md shadow-md overflow-hidden mb-10">
@@ -85,7 +92,7 @@ export default function Home() {
       
   <h1 className="text-xl md:text-6xl font-bold text-gray-900 leading-snug mb-4">
     💡 Métodos tradicionales = años de esfuerzo y frustración. <br /><br />
-    🚀 <span className="text-teal-500 underline">Nuestra solución:</span> Aprende 8 veces más rápido con práctica inmersiva y resultados reales en semanas. 🌟
+    🚀 <span className="text-teal-500 underline">Nuestra solución:</span> Aprende 8X veces más rápido con práctica inmersiva y resultados reales en semanas. 🌟
   </h1>
 
 
