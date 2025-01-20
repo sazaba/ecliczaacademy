@@ -72,19 +72,25 @@ export default function Home() {
     <main className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-2">
 
 
-<div className="bg-gradient-to-r from-green-600 to-teal-500 text-white text-center py-4 px-3 mb-10 rounded-lg shadow-lg">
+<div className="bg-orange-500 text-white text-center py-6 px-4 mb-10 rounded-xl shadow-lg border-4 border-yellow-400">
   <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight px-4 py-6">
-    <span className="text-6xl sm:text-7xl md:text-8xl font-extrabold animate-pulse">¡BASTA YA!</span><br />
-    de <span className="text-yellow-300 text-4xl sm:text-5xl md:text-6xl font-extrabold">intentar sin resultados</span>. 
-    Habla inglés como un <span className="text-teal-300 font-extrabold">experto</span>.
+    <span className="text-6xl sm:text-7xl md:text-8xl font-extrabold animate-pulse text-yellow-300 drop-shadow-md">
+      ¡BASTA YA!
+    </span><br />
+    de <span className="text-blue-300 text-4xl sm:text-5xl md:text-6xl font-extrabold">intentar sin resultados</span>. 
+    Habla inglés como un <span className="text-green-300 font-extrabold">experto</span>.
   </h1>
-  <p className="text-lg sm:text-xl md:text-2xl font-semibold ">
-    Aprende inglés como <span className="text-yellow-300 font-bold">Maluma</span> y <span className="text-yellow-300 font-bold">J Balvin</span> con nuestros métodos inmersivos.
+  <p className="text-lg sm:text-xl md:text-2xl font-semibold">
+    Aprende inglés como <span className="text-pink-300 font-bold">Maluma</span> y <span className="text-pink-300 font-bold">J Balvin</span> con nuestros métodos inmersivos.
   </p>
-  <div className="w-full aspect-video mx-auto rounded-md shadow-md overflow-hidden mb-4 mt-4">
-          <VideoPlayer />
-        </div>
+  <div className="w-full aspect-video mx-auto rounded-lg shadow-md overflow-hidden mb-6 mt-6 bg-yellow-300">
+    <VideoPlayer />
+  </div>
+ 
 </div>
+
+
+
 
 
 

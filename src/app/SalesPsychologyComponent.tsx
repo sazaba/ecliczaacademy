@@ -41,7 +41,7 @@ Por menos de 12.000 pesos al día ¡lo que cuesta un café premium! ☕</p>
           <span className="text-xl">Antes: </span>₲ 4.465.000
         </span>
         <span className="text-3xl font-bold text-green-400">
-          <span className="text-xl">¡Ahora: </span>₲ 349.900
+          <span className="text-xl">¡Ahora: </span>₲ 350.000
         </span>
       </div>
       <div className="bg-white text-gray-900 p-4 rounded-lg shadow-md mb-8">
