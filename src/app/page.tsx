@@ -51,7 +51,7 @@ export default function Home() {
       setShowMessage(true);
       setShowCountdown(true);
       deadlineRef.current = new Date().getTime() + 24 * 60 * 60 * 1000; // Establece la fecha límite (24 horas)
-    }, 3000);
+    }, 6000);
   
     return () => clearTimeout(timer);
   }, []);
