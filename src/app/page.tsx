@@ -73,15 +73,15 @@ export default function Home() {
 
 
 <div className="bg-gradient-to-br from-orange-500 to-yellow-400 text-white text-center py-10 px-6 mb-12 rounded-xl shadow-xl border border-yellow-500">
-  <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-snug">
-    <span className="block text-7xl sm:text-8xl md:text-9xl font-extrabold animate-pulse text-yellow-200 drop-shadow-lg">
+  <h1 className="text-4xl sm:text-4xl md:text-6xl font-bold leading-snug">
+    <span className="block text-6xl sm:text-8xl md:text-9xl font-extrabold animate-pulse text-yellow-200 drop-shadow-lg">
       ¡BASTA YA!
     </span>
-    de <span className="text-blue-200 text-5xl sm:text-6xl md:text-7xl font-semibold">intentar sin resultados</span>.
+    de <span className="text-blue-200 text-4xl sm:text-6xl md:text-6xl font-semibold">intentar sin resultados</span>.
     Habla inglés como un <span className="text-green-200 font-extrabold">profesional</span>.
   </h1>
   <p className="mt-6 text-lg sm:text-xl md:text-2xl font-medium leading-relaxed">
-    Aprende inglés al estilo de <span className="text-pink-200 font-bold">Maluma</span> y <span className="text-pink-200 font-bold">J Balvin</span> con nuestros métodos inmersivos únicos.
+    Aprende inglés como <span className="text-pink-200 font-bold">Maluma</span> y <span className="text-pink-200 font-bold">J Balvin</span> con nuestros métodos inmersivos únicos.
   </p>
   <div className="w-full aspect-video mx-auto rounded-lg shadow-lg overflow-hidden mt-8 bg-yellow-200">
     <VideoPlayer />
