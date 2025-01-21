@@ -10,13 +10,12 @@ import HowToDoIt from './HowToDoIt';
 import Bonus from './Bonus';
 import Cta from './Cta';
 import Image from 'next/image';
-import M5 from "./images/M5.webp"
 import M1 from "./images/M1.webp"
 import Platform from './Platform';
 import GuaranteeBanner from './GuaranteeBanner';
 import FloatingUrgency from './FloatingUrgency';
 import FAQ from './FAQ';
-
+import Monica from './Monica';
 import UrgencyTag from './UrgencyTag';
 import SalesPsychologyComponent from './SalesPsychologyComponent';
 
@@ -189,13 +188,9 @@ export default function Home() {
           <Testimonios/>
           <SalesPsychologyComponent/>
           <Cta />
-          <div className="mt-3">
-            <Image
-              src={M5} // Cambia esta ruta por la de tu imagen
-              alt="Persona que dio un testimonio"
-              className="w-full rounded-xl"
-            />
-          </div>
+          <Monica/>
+          <Cta />
+          <UrgencyTag/>
           <Dolores/>
           <Cta />
           <UrgencyTag/>
@@ -210,6 +205,7 @@ export default function Home() {
             />
           </div>
           <Platform/>
+          
           <FAQ/>
           <Cta />
           <UrgencyTag/>
