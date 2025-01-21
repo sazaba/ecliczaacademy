@@ -80,9 +80,7 @@ export default function Home() {
     de <span className="text-blue-200 text-4xl sm:text-6xl md:text-6xl font-semibold">intentar sin resultados</span>.
     Habla inglés como un <span className="text-green-200 font-extrabold">profesional</span>.
   </h1>
-  <p className="mt-6 text-lg sm:text-xl md:text-2xl font-medium leading-relaxed">
-    Aprende inglés como <span className="text-pink-200 font-bold">Maluma</span> y <span className="text-pink-200 font-bold">J Balvin</span> con nuestros métodos inmersivos únicos.
-  </p>
+  
   <div className="w-full aspect-video mx-auto rounded-lg shadow-lg overflow-hidden mt-8 bg-yellow-200">
     <VideoPlayer />
   </div>
