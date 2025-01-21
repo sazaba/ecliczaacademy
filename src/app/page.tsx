@@ -72,16 +72,18 @@ export default function Home() {
     <main className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-2">
 
 
-<div className="bg-gradient-to-br from-orange-500 to-yellow-400 text-white text-center py-10 px-6 mb-12 rounded-xl shadow-xl border border-yellow-500">
+<div className="bg-gradient-to-br from-teal-500 to-cyan-600 text-white text-center py-10 px-6 mb-12 rounded-xl shadow-2xl border border-cyan-400">
   <h1 className="text-4xl sm:text-4xl md:text-6xl font-bold leading-snug">
-    <span className="block text-6xl sm:text-8xl md:text-9xl font-extrabold animate-pulse text-yellow-200 drop-shadow-lg">
-      ¡BASTA YA!
+    <span className="block text-6xl sm:text-8xl md:text-9xl font-extrabold animate-pulse text-white drop-shadow-lg">
+      ¡DOMINA EL INGLÉS!
     </span>
-    de <span className="text-blue-200 text-4xl sm:text-6xl md:text-6xl font-semibold">intentar sin resultados</span>.
-    Habla inglés como un <span className="text-green-200 font-extrabold">profesional</span>.
+    <span className="text-lg sm:text-xl md:text-2xl font-medium mt-4 block">
+      En tiempo récord con <span className="text-yellow-300 font-bold">métodos inmersivos</span>.  
+      Vive el idioma, conéctate con <span className="text-orange-300 font-bold">nativos</span>, y logra resultados reales.
+    </span>
   </h1>
   
-  <div className="w-full aspect-video mx-auto rounded-lg shadow-lg overflow-hidden mt-8 bg-yellow-200">
+  <div className="w-full aspect-video mx-auto rounded-lg shadow-lg overflow-hidden mt-8 bg-cyan-300">
     <VideoPlayer />
   </div>
 </div>
