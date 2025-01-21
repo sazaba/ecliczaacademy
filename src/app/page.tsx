@@ -52,7 +52,7 @@ export default function Home() {
       setShowMessage(true);
       setShowCountdown(true);
       deadlineRef.current = new Date().getTime() + 24 * 60 * 60 * 1000; // Establece la fecha límite (24 horas)
-    }, 2000);
+    }, 3000);
   
     return () => clearTimeout(timer);
   }, []);
@@ -72,21 +72,22 @@ export default function Home() {
     <main className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-2">
 
 
-<div className="bg-gradient-to-br from-green-500 to-cyan-600 text-white text-center py-10 px-6 mb-12 rounded-xl shadow-2xl border border-cyan-400">
+<div className="bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 text-white text-center py-10 px-6 mb-12 rounded-xl shadow-2xl border border-purple-400">
   <h1 className="text-4xl sm:text-4xl md:text-6xl font-bold leading-snug">
     <span className="block text-6xl sm:text-8xl md:text-9xl font-extrabold animate-pulse text-white drop-shadow-lg">
       ¡DOMINA EL INGLÉS!
     </span>
-    <span className="text-2xl sm:text-xl md:text-2xl font-medium mt-4 block">
-      En tiempo récord con <span className="text-yellow-300 font-bold">métodos inmersivos</span>.  
-      Vive el idioma, conéctate con <span className="text-orange-300 font-bold">nativos</span>, y logra resultados reales.
+    <span className="text-2xl sm:text-xl md:text-2xl font-medium mt-4 block text-white">
+      En tiempo récord con <span className="text-yellow-200 font-bold">métodos inmersivos</span>.  
+      Vive el idioma, conéctate con <span className="text-cyan-200 font-bold">nativos</span>, y logra resultados reales.
     </span>
   </h1>
   
-  <div className="w-full aspect-video mx-auto rounded-lg shadow-lg overflow-hidden mt-8 bg-cyan-300">
+  <div className="w-full aspect-video mx-auto rounded-lg shadow-lg overflow-hidden mt-8 bg-pink-300">
     <VideoPlayer />
   </div>
 </div>
+
 
 
 
