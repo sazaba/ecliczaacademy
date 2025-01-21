@@ -72,12 +72,12 @@ export default function Home() {
     <main className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-2">
 
 
-<div className="bg-gradient-to-br from-teal-500 to-cyan-600 text-white text-center py-10 px-6 mb-12 rounded-xl shadow-2xl border border-cyan-400">
+<div className="bg-gradient-to-br from-green-500 to-cyan-600 text-white text-center py-10 px-6 mb-12 rounded-xl shadow-2xl border border-cyan-400">
   <h1 className="text-4xl sm:text-4xl md:text-6xl font-bold leading-snug">
     <span className="block text-6xl sm:text-8xl md:text-9xl font-extrabold animate-pulse text-white drop-shadow-lg">
       ¡DOMINA EL INGLÉS!
     </span>
-    <span className="text-lg sm:text-xl md:text-2xl font-medium mt-4 block">
+    <span className="text-2xl sm:text-xl md:text-2xl font-medium mt-4 block">
       En tiempo récord con <span className="text-yellow-300 font-bold">métodos inmersivos</span>.  
       Vive el idioma, conéctate con <span className="text-orange-300 font-bold">nativos</span>, y logra resultados reales.
     </span>
