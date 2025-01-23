@@ -51,7 +51,7 @@ export default function Home() {
       setShowMessage(true);
       setShowCountdown(true);
       deadlineRef.current = new Date().getTime() + 24 * 60 * 60 * 1000; // Establece la fecha límite (24 horas)
-    }, 9000);
+    }, 1000);
   
     return () => clearTimeout(timer);
   }, []);
@@ -71,15 +71,16 @@ export default function Home() {
     <main className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-2">
 
 
-<div className="bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 text-white text-center py-10 px-6 mb-12 rounded-xl shadow-2xl border border-purple-400">
+<div className="bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 text-white text-center py-10 px-4 mb-12 rounded-xl shadow-2xl border border-purple-400">
   <h1 className="text-4xl sm:text-4xl md:text-6xl font-bold leading-snug">
-    <span className="block text-6xl sm:text-8xl md:text-9xl font-extrabold animate-pulse text-white drop-shadow-lg">
-      ¡DOMINA EL INGLÉS!
+    <span className="block text-5xl sm:text-8xl md:text-9xl font-extrabold animate-pulse text-white drop-shadow-lg">
+    ¡DALE, QUE EL INGLES ES FACIL!
     </span>
     <span className="text-2xl sm:text-xl md:text-2xl font-medium mt-4 block text-white">
-      En tiempo récord con <span className="text-yellow-200 font-bold">métodos inmersivos</span>.  
-      Vive el idioma, conéctate con <span className="text-cyan-200 font-bold">nativos</span>, y logra resultados reales.
-    </span>
+  Aprenderás rápido con <span className="text-yellow-200 font-bold">métodos inmersivos</span>.  
+  Vivirás el idioma, hablarás con <span className="text-cyan-200 font-bold">nativos</span>, logrando resultados de verdad.
+</span>
+
   </h1>
   
   <div className="w-full aspect-video mx-auto rounded-lg shadow-lg overflow-hidden mt-8 bg-pink-300">
@@ -87,23 +88,11 @@ export default function Home() {
   </div>
 </div>
 
-
-
-
-
-
-
-
-<section className="text-center max-w-4xl mx-auto px-2 mb-5">
-
-      
+<section className="text-center max-w-4xl mx-auto px-2 mb-5">    
   <h1 className="text-xl md:text-6xl font-bold text-gray-900 leading-snug mb-4">
-    💡 Métodos tradicionales = años de esfuerzo y frustración. <br /><br />
-    🚀 <span className="text-teal-500 underline">Nuestra solución:</span> Aprende 8X veces más rápido con práctica inmersiva y resultados reales en semanas. 🌟
+    💡 Métodos de escuela = años de esfuerzo y frustración. <br /><br />
+    🚀 <span className="text-teal-500 underline">Nuestra solución:</span> Aprenderas 8 veces más rápido con metodologia inmersiva para obtener resultados en semanas. 🌟
   </h1>
-
-
-        
 
         <div className="bg-yellow-400 text-black text-center  py-6 px-5 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
           <h3 className="text-xl md:text-3xl font-bold">
@@ -116,23 +105,24 @@ export default function Home() {
 
       
         <div className="grid grid-cols-2 md:grid-cols-4 gap-1 px-1 mt-16">
-  <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-zoom delay-100">
+  <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-100 duration-500">
     <span className="text-3xl mb-2">🇪🇸</span>
     <p className="text-sm md:text-base font-semibold">Aprende rápido como con el español.</p>
   </div>
-  <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-300">
+  <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-200 duration-500">
     <span className="text-3xl mb-2">🌍</span>
     <p className="text-sm md:text-base font-semibold">Práctica inmersiva en escenarios reales.</p>
   </div>
-  <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-rotate delay-500">
+  <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-300 duration-500">
     <span className="text-3xl mb-2">🤖</span>
     <p className="text-sm md:text-base font-semibold">IA que acelera tu aprendizaje.</p>
   </div>
-  <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-float delay-700">
+  <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-400 duration-500">
     <span className="text-3xl mb-2">⏱️</span>
     <p className="text-sm md:text-base font-semibold">Habla inglés en tiempo récord.</p>
   </div>
 </div>
+
 
 <style>
 {`
@@ -188,10 +178,10 @@ export default function Home() {
           <Testimonios/>
           <SalesPsychologyComponent/>
           <Cta />
-          <Monica/>
+          <Dolores/>
           <Cta />
           <UrgencyTag/>
-          <Dolores/>
+          <Monica/>
           <Cta />
           <UrgencyTag/>
           <HowToDoIt/>
