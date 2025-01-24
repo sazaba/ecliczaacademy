@@ -51,7 +51,7 @@ export default function Home() {
       setShowMessage(true);
       setShowCountdown(true);
       deadlineRef.current = new Date().getTime() + 24 * 60 * 60 * 1000; // Establece la fecha límite (24 horas)
-    }, 1000);
+    }, 12000);
   
     return () => clearTimeout(timer);
   }, []);
@@ -71,22 +71,23 @@ export default function Home() {
     <main className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-2">
 
 
-<div className="bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 text-white text-center py-10 px-4 mb-12 rounded-xl shadow-2xl border border-purple-400">
+<div className="bg-gradient-to-br from-indigo-200 via-purple-200 to-pink-200 text-gray-900 text-center py-10 px-4 mb-12 rounded-xl shadow-2xl border border-purple-200">
   <h1 className="text-4xl sm:text-4xl md:text-6xl font-bold leading-snug">
-    <span className="block text-5xl sm:text-8xl md:text-9xl font-extrabold animate-pulse text-white drop-shadow-lg">
-    ¡EL INGLES ES FACIL!
+    <span className="block text-5xl sm:text-8xl md:text-9xl font-extrabold animate-pulse text-gray-800 drop-shadow-md">
+      ¡EL INGLES ES FACIL!
     </span>
-    <span className="text-2xl sm:text-xl md:text-2xl font-medium mt-4 block text-white">
-  Aprenderás rápido con <span className="text-yellow-200 font-bold">métodos inmersivos</span>.  
-  Vivirás el idioma, hablarás con <span className="text-cyan-200 font-bold">nativos</span>, logrando resultados de verdad.
-</span>
-
+    <span className="text-2xl sm:text-xl md:text-2xl font-medium mt-4 block text-gray-800">
+      Aprenderás rápido con <span className="text-yellow-500 font-bold">métodos inmersivos</span>.  
+      Vivirás el idioma, hablarás con <span className="text-cyan-500 font-bold">nativos</span>, logrando resultados de verdad.
+    </span>
   </h1>
   
-  <div className="w-full aspect-video mx-auto rounded-lg shadow-lg overflow-hidden mt-8 bg-pink-300">
+  <div className="w-full aspect-video mx-auto rounded-lg shadow-lg overflow-hidden mt-8 bg-pink-100">
     <VideoPlayer />
   </div>
 </div>
+
+
 
 <section className="text-center max-w-4xl mx-auto px-2 mb-5">    
   <h1 className="text-xl md:text-6xl font-bold text-gray-900 leading-snug mb-4">
