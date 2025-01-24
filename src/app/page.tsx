@@ -74,7 +74,7 @@ export default function Home() {
 <div className="bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 text-white text-center py-10 px-4 mb-12 rounded-xl shadow-2xl border border-purple-400">
   <h1 className="text-4xl sm:text-4xl md:text-6xl font-bold leading-snug">
     <span className="block text-5xl sm:text-8xl md:text-9xl font-extrabold animate-pulse text-white drop-shadow-lg">
-    ¡DALE, QUE EL INGLES ES FACIL!
+    ¡EL INGLES ES FACIL!
     </span>
     <span className="text-2xl sm:text-xl md:text-2xl font-medium mt-4 block text-white">
   Aprenderás rápido con <span className="text-yellow-200 font-bold">métodos inmersivos</span>.  
@@ -90,8 +90,8 @@ export default function Home() {
 
 <section className="text-center max-w-4xl mx-auto px-2 mb-5">    
   <h1 className="text-xl md:text-6xl font-bold text-gray-900 leading-snug mb-4">
-    💡 Métodos de escuela = años de esfuerzo y frustración. <br /><br />
-    🚀 <span className="text-teal-500 underline">Nuestra solución:</span> Aprenderas 8 veces más rápido con metodologia inmersiva para obtener resultados en semanas. 🌟
+    💡Este es el Metodo que las celebridades estan utilizando <br /><br />
+    🚀 <span className="text-teal-500 underline"></span> Aprenderas 8 veces más rápido con la metodologia inmersiva.
   </h1>
 
         <div className="bg-yellow-400 text-black text-center  py-6 px-5 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
