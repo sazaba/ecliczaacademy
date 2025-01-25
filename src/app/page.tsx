@@ -71,7 +71,7 @@ export default function Home() {
     <main className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-2">
 
 
-<div className="bg-gradient-to-br from-indigo-200 via-purple-200 to-pink-200 text-gray-900 text-center py-10 px-4 mb-12 rounded-xl shadow-2xl border border-purple-200">
+<div className="bg-gradient-to-br from-orange-200 via-yellow-200 to-amber-200 text-gray-900 text-center py-10 px-4 mb-12 rounded-xl shadow-2xl border border-orange-200">
   <h1 className="text-4xl sm:text-4xl md:text-6xl font-bold leading-snug">
     <span className="block text-5xl sm:text-8xl md:text-9xl font-extrabold animate-pulse text-gray-800 drop-shadow-md">
       ¡EL INGLES ES FACIL!
@@ -82,10 +82,12 @@ export default function Home() {
     </span>
   </h1>
   
-  <div className="w-full aspect-video mx-auto rounded-lg shadow-lg overflow-hidden mt-8 bg-pink-100">
+  <div className="w-full aspect-video mx-auto rounded-lg shadow-lg overflow-hidden mt-8 bg-yellow-100">
     <VideoPlayer />
   </div>
 </div>
+
+
 
 
 
