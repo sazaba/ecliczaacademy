@@ -73,8 +73,8 @@ export default function Home() {
 
 <div className="bg-gradient-to-br from-orange-200 via-yellow-200 to-amber-200 text-gray-900 text-center py-10 px-4 mb-12 rounded-xl shadow-2xl border border-orange-200">
   <h1 className="text-4xl sm:text-4xl md:text-6xl font-bold leading-snug">
-    <span className="block text-5xl sm:text-8xl md:text-9xl font-extrabold animate-pulse text-gray-800 drop-shadow-md">
-      ¡EL INGLES ES FACIL!
+    <span className="block text-4xl sm:text-8xl md:text-9xl font-extrabold animate-pulse text-gray-800 drop-shadow-md">
+    ¡PIENSA, HABLA Y VIVE EN INGLÉS!
     </span>
     <span className="text-2xl sm:text-xl md:text-2xl font-medium mt-4 block text-gray-800">
       Aprenderás rápido con <span className="text-yellow-500 font-bold">métodos inmersivos</span>.  
