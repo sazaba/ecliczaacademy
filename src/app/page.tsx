@@ -61,7 +61,7 @@ export default function Home() {
     if (showCountdown) {
       const timer = setInterval(() => {
         setTimeLeft(calculateTimeLeft());
-      }, 1000);
+      }, 120000);
 
       return () => clearInterval(timer); // Limpiamos el temporizador cuando el componente se desmonta o showCountdown cambia
     }
@@ -125,10 +125,12 @@ export default function Home() {
       {showMessage && (
         <div className="message-container mt-0 bg-white shadow-lg rounded-lg text-center">
           {/* <PromotionBanner/> */}
+          <FloatingUrgency/>
           <Cta />
   <UrgencyTag />
   <SalesPsychologyComponent />
-  <Monica />
+  <Monica />  
+  <Platform/>
   <Testimonios />
   <Cta />
   <UrgencyTag />
