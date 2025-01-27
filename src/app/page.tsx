@@ -71,139 +71,81 @@ export default function Home() {
     <main className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-2">
 
 
-<div className="bg-gradient-to-br from-orange-200 via-yellow-200 to-amber-200 text-gray-900 text-center py-10 px-4 mb-12 rounded-xl shadow-2xl border border-orange-200">
+<div className="bg-gradient-to-br from-orange-300 via-yellow-300 to-amber-300 text-gray-900 text-center py-10 px-6 mb-12 rounded-xl shadow-2xl border border-orange-300">
   <h1 className="text-4xl sm:text-4xl md:text-6xl font-bold leading-snug">
     <span className="block text-4xl sm:text-8xl md:text-9xl font-extrabold animate-pulse text-gray-800 drop-shadow-md">
-    ¡PIENSA, HABLA Y VIVE EN INGLÉS!
+      ¡PIENSA, HABLA Y TRIUNFA EN INGLÉS!
     </span>
     <span className="text-2xl sm:text-xl md:text-2xl font-medium mt-4 block text-gray-800">
-      Aprenderás rápido con <span className="text-yellow-500 font-bold">métodos inmersivos</span>.  
-      Vivirás el idioma, hablarás con <span className="text-cyan-500 font-bold">nativos</span>, logrando resultados de verdad.
+      Vive una experiencia <span className="text-yellow-600 font-bold">100% inmersiva</span>, diseñada para los que buscan el éxito real. Habla como un nativo, piensa como un experto y conquista el inglés.
     </span>
   </h1>
-  
-  <div className="w-full aspect-video mx-auto rounded-lg shadow-lg overflow-hidden mt-8 bg-yellow-100">
+
+  <div className="w-full aspect-video mx-auto rounded-lg shadow-lg overflow-hidden mt-8 bg-yellow-200">
     <VideoPlayer />
   </div>
 </div>
 
-
-
-
-
-<section className="text-center max-w-4xl mx-auto px-2 mb-5">    
+<section className="text-center max-w-4xl mx-auto px-2 mb-5">
   <h1 className="text-xl md:text-6xl font-bold text-gray-900 leading-snug mb-4">
-    💡Este es el Metodo que las celebridades estan utilizando <br /><br />
-    🚀 <span className="text-teal-500 underline"></span> Aprenderas 8 veces más rápido con la metodologia inmersiva.
+    💡 El método elegido por empresarios y líderes globales <br /><br />
+    🚀 <span className="text-teal-600 underline">Acelera tu aprendizaje 8 veces más</span> con estrategias diseñadas para el éxito.
   </h1>
 
-        <div className="bg-yellow-400 text-black text-center  py-6 px-5 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-          <h3 className="text-xl md:text-3xl font-bold">
-            🎁 Al final del video, descubre cómo obtener <span className="underline">tu sorpresa exclusiva</span>.
-          </h3>
-          <p className="mt-2 text-sm md:text-base">
-            Aprovecha esta oportunidad única para empezar tu camino hacia el éxito.
-          </p>
-        </div>
-
-      
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-1 px-1 mt-16">
-  <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-100 duration-500">
-    <span className="text-3xl mb-2">🇪🇸</span>
-    <p className="text-sm md:text-base font-semibold">Aprende rápido como con el español.</p>
+  <div className="bg-yellow-500 text-black text-center py-6 px-5 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+    <h3 className="text-xl md:text-3xl font-bold">
+      🎁 Mira el video y obtén acceso a <span className="underline">un beneficio exclusivo</span>.
+    </h3>
+    <p className="mt-2 text-sm md:text-base">
+      Esta es tu oportunidad de transformar tu nivel de inglés y alcanzar metas profesionales únicas.
+    </p>
   </div>
-  <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-200 duration-500">
-    <span className="text-3xl mb-2">🌍</span>
-    <p className="text-sm md:text-base font-semibold">Práctica inmersiva en escenarios reales.</p>
+
+  <div className="grid grid-cols-2 md:grid-cols-4 gap-4 px-1 mt-16">
+    <div className="bg-gradient-to-br from-blue-600 to-teal-600 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-100 duration-500">
+      <span className="text-4xl mb-2">🇪🇸</span>
+      <p className="text-sm md:text-base font-semibold">Aprende como dominaste el español, de forma intuitiva.</p>
+    </div>
+    <div className="bg-gradient-to-br from-blue-600 to-teal-600 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-200 duration-500">
+      <span className="text-4xl mb-2">🌍</span>
+      <p className="text-sm md:text-base font-semibold">Accede a prácticas inmersivas con escenarios reales.</p>
+    </div>
+    <div className="bg-gradient-to-br from-blue-600 to-teal-600 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-300 duration-500">
+      <span className="text-4xl mb-2">🤖</span>
+      <p className="text-sm md:text-base font-semibold">Tecnología avanzada para un aprendizaje personalizado.</p>
+    </div>
+    <div className="bg-gradient-to-br from-blue-600 to-teal-600 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-400 duration-500">
+      <span className="text-4xl mb-2">⏱️</span>
+      <p className="text-sm md:text-base font-semibold">Resultados visibles en tiempo récord.</p>
+    </div>
   </div>
-  <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-300 duration-500">
-    <span className="text-3xl mb-2">🤖</span>
-    <p className="text-sm md:text-base font-semibold">IA que acelera tu aprendizaje.</p>
-  </div>
-  <div className="bg-gradient-to-br from-blue-500 to-teal-500 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-400 duration-500">
-    <span className="text-3xl mb-2">⏱️</span>
-    <p className="text-sm md:text-base font-semibold">Habla inglés en tiempo récord.</p>
-  </div>
-</div>
+</section>
 
-
-<style>
-{`
-  @keyframes zoom {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.1); }
-    100% { transform: scale(1); }
-  }
-
-  @keyframes slide-up {
-    0% { transform: translateY(20px); opacity: 0; }
-    50% { transform: translateY(-10px); opacity: 1; }
-    100% { transform: translateY(0); }
-  }
-
-  @keyframes rotate {
-    0% { transform: rotate(0deg); }
-    50% { transform: rotate(10deg); }
-    100% { transform: rotate(0deg); }
-  }
-
-  @keyframes float {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-10px); }
-  }
-
-  .animate-zoom {
-    animation: zoom 2s infinite ease-in-out;
-  }
-
-  .animate-slide-up {
-    animation: slide-up 2.5s infinite ease-in-out;
-  }
-
-  .animate-rotate {
-    animation: rotate 2.5s infinite ease-in-out;
-  }
-
-  .animate-float {
-    animation: float 3s infinite ease-in-out;
-  }
-`}
-</style>
-
-
-      </section>
 
       {showMessage && (
         <div className="message-container mt-0 bg-white shadow-lg rounded-lg text-center">
           {/* <PromotionBanner/> */}
           <Cta />
-          <FloatingUrgency/>
-          <Testimonios/>
-          <SalesPsychologyComponent/>
-          <Cta />
-          <Dolores/>
-          <Cta />
-          <UrgencyTag/>
-          <Monica/>
-          <Cta />
-          <UrgencyTag/>
-          <HowToDoIt/>
-          <Cta />
-          <UrgencyTag/>
-          <div className="mt-3 mb-3">
-            <Image
-              src={M1} // Cambia esta ruta por la de tu imagen
-              alt="Persona que dio un testimonio"
-              className="w-full rounded-xl"
-            />
-          </div>
-          <Platform/>
-          
-          <FAQ/>
-          <Cta />
-          <UrgencyTag/>
-          <GuaranteeBanner/>
-          <Bonus/>
+  <UrgencyTag />
+  <SalesPsychologyComponent />
+  <Monica />
+  <Testimonios />
+  <Cta />
+  <UrgencyTag />
+  <Dolores />
+  <HowToDoIt />
+  <Cta />
+  <UrgencyTag />
+  <GuaranteeBanner />
+  <FAQ />
+  <div className="mt-3 mb-3">
+    <Image
+      src={M1}
+      alt="Profesora Mónica - Curso de Inglés"
+      className="w-full rounded-xl"
+    />
+  </div>
+  <Bonus />
           
 
           {showCountdown && (
