@@ -51,7 +51,7 @@ export default function Home() {
       setShowMessage(true);
       setShowCountdown(true);
       deadlineRef.current = new Date().getTime() + 24 * 60 * 60 * 1000; // Establece la fecha límite (24 horas)
-    }, 120000);
+    }, 60000);
   
     return () => clearTimeout(timer);
   }, []);
@@ -74,7 +74,7 @@ export default function Home() {
 <div className="bg-gradient-to-br from-orange-300 via-yellow-300 to-amber-300 text-gray-900 text-center py-10 px-6 mb-12 rounded-xl shadow-2xl border border-orange-300">
   <h1 className="text-4xl sm:text-4xl md:text-6xl font-bold leading-snug">
     <span className="block text-4xl sm:text-8xl md:text-9xl font-extrabold animate-pulse text-gray-800 drop-shadow-md">
-      ¡PIENSA, HABLA Y TRIUNFA EN INGLÉS!
+      ¡PIENSA, HABLA Y GÁNALE AL INGLÉS!
     </span>
     <span className="text-2xl sm:text-xl md:text-2xl font-medium mt-4 block text-gray-800">
       Vive una experiencia <span className="text-yellow-600 font-bold">100% inmersiva</span>, diseñada para los que buscan el éxito real. Habla como un nativo, piensa como un experto y conquista el inglés.
