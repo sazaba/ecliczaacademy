@@ -51,7 +51,7 @@ export default function Home() {
       setShowMessage(true);
       setShowCountdown(true);
       deadlineRef.current = new Date().getTime() + 24 * 60 * 60 * 1000; // Establece la fecha límite (24 horas)
-    }, 60000);
+    }, 2000);
   
     return () => clearTimeout(timer);
   }, []);
@@ -71,37 +71,30 @@ export default function Home() {
     <main className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-2">
 
 
-<div className="bg-gradient-to-br from-orange-300 via-yellow-300 to-amber-300 text-gray-900 text-center py-10 px-6 mb-12 rounded-xl shadow-2xl border border-orange-300">
+<div className="bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white text-center py-10 px-6 rounded-xl shadow-2xl border border-gray-700">
   <h1 className="text-4xl sm:text-4xl md:text-6xl font-bold leading-snug">
-    <span className="block text-4xl sm:text-8xl md:text-9xl font-extrabold animate-pulse text-gray-800 drop-shadow-md">
+    <span className="block text-4xl sm:text-8xl md:text-9xl font-extrabold animate-pulse text-yellow-400 drop-shadow-md">
       ¡PIENSA, HABLA Y GÁNALE AL INGLÉS!
     </span>
-    <span className="text-2xl sm:text-xl md:text-2xl font-medium mt-4 block text-gray-800">
-      Vive una experiencia <span className="text-yellow-600 font-bold">100% inmersiva</span>, diseñada para los que buscan el éxito real. Habla como un nativo, piensa como un experto y conquista el inglés.
+    <span className="text-2xl sm:text-xl md:text-2xl font-medium mt-4 block text-white">
+      Vive una experiencia <span className="text-yellow-400 font-bold">100% inmersiva</span>, diseñada para los que buscan el éxito real. Habla como un nativo, piensa como un experto y conquista el inglés.
     </span>
   </h1>
 
-  <div className="w-full aspect-video mx-auto rounded-lg shadow-lg overflow-hidden mt-8 bg-yellow-200">
+  <div className="w-full aspect-video mx-auto rounded-lg shadow-lg overflow-hidden mt-8 bg-gray-700">
     <VideoPlayer />
   </div>
+
+  <h1 className="text-xl md:text-6xl font-bold text-white leading-snug mb-4 mt-4">
+    💡 El método elegido por empresarios y líderes globales <br /><br />
+    🚀 <span className="text-yellow-400 underline">Acelera tu aprendizaje 8 veces más</span> con estrategias diseñadas para el éxito.
+  </h1>
 </div>
 
+
 <section className="text-center max-w-4xl mx-auto px-2 mb-5">
-  <h1 className="text-xl md:text-6xl font-bold text-gray-900 leading-snug mb-4">
-    💡 El método elegido por empresarios y líderes globales <br /><br />
-    🚀 <span className="text-teal-600 underline">Acelera tu aprendizaje 8 veces más</span> con estrategias diseñadas para el éxito.
-  </h1>
 
-  <div className="bg-yellow-500 text-black text-center py-6 px-5 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-    <h3 className="text-xl md:text-3xl font-bold">
-      🎁 Mira el video y obtén acceso a <span className="underline">un beneficio exclusivo</span>.
-    </h3>
-    <p className="mt-2 text-sm md:text-base">
-      Esta es tu oportunidad de transformar tu nivel de inglés y alcanzar metas profesionales únicas.
-    </p>
-  </div>
-
-  <div className="grid grid-cols-2 md:grid-cols-4 gap-4 px-1 mt-16">
+  <div className="grid grid-cols-2 md:grid-cols-4 gap-4 px-1 mt-6 ">
     <div className="bg-gradient-to-br from-blue-600 to-teal-600 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-100 duration-500">
       <span className="text-4xl mb-2">🇪🇸</span>
       <p className="text-sm md:text-base font-semibold">Aprende como dominaste el español, de forma intuitiva.</p>
