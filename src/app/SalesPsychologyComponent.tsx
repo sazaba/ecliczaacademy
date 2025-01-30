@@ -32,7 +32,7 @@ const SalesPsychologyComponent = () => {
   }, []);
 
   return (
-    <div className="text-center py-8 px-6 md:px-12 bg-gradient-to-r from-teal-500 to-blue-600 text-white rounded-lg shadow-lg">
+    <div className="text-center mt-3 py-8 px-6 md:px-12 bg-gradient-to-r from-teal-500 to-blue-600 text-white rounded-lg shadow-lg">
       <h2 className="text-4xl font-bold mb-4">¡Oferta Limitada!⏳</h2>
       <p className="text-lg mb-4">
         Por menos de 9.000 pesos al día ¡lo que cuesta un café en Juan Valdez! ☕

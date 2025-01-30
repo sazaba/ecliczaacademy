@@ -71,7 +71,7 @@ export default function Home() {
     <main className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-2">
 
 
-<div className="bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white text-center py-10 px-6 rounded-xl shadow-2xl border border-gray-700">
+<div className="bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white text-center py-10 px-6 rounded-xl shadow-black shadow-md  ">
   <h1 className="text-4xl sm:text-4xl md:text-6xl font-bold leading-snug">
     <span className="block text-4xl sm:text-8xl md:text-9xl font-extrabold animate-pulse text-yellow-400 drop-shadow-md">
       ¡PIENSA, HABLA Y GÁNALE AL INGLÉS!
@@ -94,24 +94,25 @@ export default function Home() {
 
 <section className="text-center max-w-4xl mx-auto px-2 mb-5">
 
-  <div className="grid grid-cols-2 md:grid-cols-4 gap-4 px-1 mt-6 ">
-    <div className="bg-gradient-to-br from-blue-600 to-teal-600 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-100 duration-500">
-      <span className="text-4xl mb-2">🇪🇸</span>
-      <p className="text-sm md:text-base font-semibold">Aprende como dominaste el español, de forma intuitiva.</p>
-    </div>
-    <div className="bg-gradient-to-br from-blue-600 to-teal-600 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-200 duration-500">
-      <span className="text-4xl mb-2">🌍</span>
-      <p className="text-sm md:text-base font-semibold">Accede a prácticas inmersivas con escenarios reales.</p>
-    </div>
-    <div className="bg-gradient-to-br from-blue-600 to-teal-600 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-300 duration-500">
-      <span className="text-4xl mb-2">🤖</span>
-      <p className="text-sm md:text-base font-semibold">Tecnología avanzada para un aprendizaje personalizado.</p>
-    </div>
-    <div className="bg-gradient-to-br from-blue-600 to-teal-600 text-white p-4 shadow-lg flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-400 duration-500">
-      <span className="text-4xl mb-2">⏱️</span>
-      <p className="text-sm md:text-base font-semibold">Resultados visibles en tiempo récord.</p>
-    </div>
+<div className="grid grid-cols-2 md:grid-cols-4 gap-4 px-1 mt-6">
+  <div className="bg-gradient-to-br from-blue-600 to-teal-600 text-white p-4 shadow-lg shadow-black flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-100 duration-500">
+    <span className="text-4xl mb-2">🇪🇸</span>
+    <p className="text-sm md:text-base font-semibold">Aprende como dominaste el español, de forma intuitiva.</p>
   </div>
+  <div className="bg-gradient-to-br from-blue-600 to-teal-600 text-white p-4 shadow-lg shadow-black flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-200 duration-500">
+    <span className="text-4xl mb-2">🌍</span>
+    <p className="text-sm md:text-base font-semibold">Accede a prácticas inmersivas con escenarios reales.</p>
+  </div>
+  <div className="bg-gradient-to-br from-blue-600 to-teal-600 text-white p-4 shadow-lg shadow-black flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-300 duration-500">
+    <span className="text-4xl mb-2">🤖</span>
+    <p className="text-sm md:text-base font-semibold">Tecnología avanzada para un aprendizaje personalizado.</p>
+  </div>
+  <div className="bg-gradient-to-br from-blue-600 to-teal-600 text-white p-4 shadow-lg shadow-black flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-400 duration-500">
+    <span className="text-4xl mb-2">⏱️</span>
+    <p className="text-sm md:text-base font-semibold">Resultados visibles en tiempo récord.</p>
+  </div>
+</div>
+
 </section>
 
 

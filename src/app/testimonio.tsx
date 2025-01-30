@@ -2,7 +2,7 @@ import React from 'react';
 
 function Testimonials() {
   return (
-    <section className="bg-white py-16 px-6 md:px-20">
+    <section className="bg-white py-6 px-6 md:px-20">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-5xl font-black text-gray-900 mb-10 tracking-tight leading-tight">
           Historias que Inspiran: ¡Transforma tu Vida con Inglés!
