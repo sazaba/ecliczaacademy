@@ -5,7 +5,7 @@ const Cta = () => {
     <div className="cta-buttons mt-6 flex justify-center">
       <a
         href="https://pay.hotmart.com/N93858012D?checkoutMode=10"
-        className="bg-green-500 shadow-black text-white py-4 px-5 rounded-full text-lg md:text-xl font-bold shadow-md transform transition-all duration-500 ease-in-out hover:bg-orange-600 hover:scale-105 hover:shadow-2xl w-full sm:w-auto text-center animate-bounce-persuade"
+        className="bg-green-500 shadow-black text-white py-4 px-5 rounded-full text-lg md:text-xl font-bold shadow-sm transform transition-all duration-500 ease-in-out hover:bg-orange-600 hover:scale-105 hover:shadow-2xl w-full sm:w-auto text-center animate-bounce-persuade"
         aria-label="Botón para adquirir el curso de inglés"
       >
         ¡Quiero aprender inglés!
