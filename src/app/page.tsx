@@ -92,6 +92,29 @@ export default function Home() {
 </div>
 
 
+{/* <section className="text-center max-w-4xl mx-auto px-2 mb-5">
+
+<div className="grid grid-cols-2 md:grid-cols-4 gap-4 px-1 mt-6">
+  <div className="bg-gradient-to-br from-blue-600 to-teal-600 text-white p-4 shadow-md shadow-black flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-100 duration-500">
+    <span className="text-4xl mb-2">🇪🇸</span>
+    <p className="text-sm md:text-base font-semibold">Aprende como dominaste el español, de forma intuitiva.</p>
+  </div>
+  <div className="bg-gradient-to-br from-blue-600 to-teal-600 text-white p-4 shadow-md shadow-black flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-200 duration-500">
+    <span className="text-4xl mb-2">🌍</span>
+    <p className="text-sm md:text-base font-semibold">Accede a prácticas inmersivas con escenarios reales.</p>
+  </div>
+  <div className="bg-gradient-to-br from-blue-600 to-teal-600 text-white p-4 shadow-md shadow-black flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-300 duration-500">
+    <span className="text-4xl mb-2">🤖</span>
+    <p className="text-sm md:text-base font-semibold">Tecnología avanzada para un aprendizaje personalizado.</p>
+  </div>
+  <div className="bg-gradient-to-br from-blue-600 to-teal-600 text-white p-4 shadow-md shadow-black flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-400 duration-500">
+    <span className="text-4xl mb-2">⏱️</span>
+    <p className="text-sm md:text-base font-semibold">Resultados visibles en tiempo récord.</p>
+  </div>
+</div>
+
+</section> */}
+
 
       {showMessage && (
         <div className="message-container mt-0 bg-white shadow-lg rounded-lg text-center">
