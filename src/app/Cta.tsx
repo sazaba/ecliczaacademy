@@ -1,6 +1,6 @@
 import React from "react";
 
-const Cta = () => {
+const Cta = ({ text = "¡Quiero aprender inglés!" }) => {
   return (
     <div className="cta-buttons mt-6 flex justify-center">
       <a
@@ -8,10 +8,9 @@ const Cta = () => {
         className="bg-green-500 shadow-black text-white py-4 px-5 rounded-full text-lg md:text-xl font-bold shadow-sm transform transition-all duration-500 ease-in-out hover:bg-orange-600 hover:scale-105 hover:shadow-2xl w-full sm:w-auto text-center animate-bounce-persuade"
         aria-label="Botón para adquirir el curso de inglés"
       >
-        ¡Quiero aprender inglés!
+        {text}
       </a>
 
-      {/* Animación personalizada */}
       <style jsx>{`
         @keyframes bounce-persuade {
           0%, 100% {

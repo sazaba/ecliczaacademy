@@ -107,7 +107,7 @@ const Bonus = () => {
           </p>
         </div>
       </div>
-      <Cta />
+     
     </section>
   );
 };
