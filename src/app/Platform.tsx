@@ -4,7 +4,7 @@ import Hp from './images/Hp.webp';
 
 const Platform: React.FC = () => {
   return (
-    <section className="bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 text-white py-12 px-8">
+    <section className="bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 text-white py-12 px-8 mt-3">
       <div className="max-w-7xl mx-auto text-center">
         {/* Título */}
         <h2 className="text-3xl md:text-5xl font-extrabold mb-6">

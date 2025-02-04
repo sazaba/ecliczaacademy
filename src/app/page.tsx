@@ -95,7 +95,7 @@ export default function Home() {
 
 
 
-{/* <section className="text-center max-w-4xl mx-auto px-2 mb-5">
+<section className="text-center max-w-4xl mx-auto px-2 mb-5">
 
 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 px-1 mt-6">
   <div className="bg-gradient-to-br from-blue-600 to-teal-600 text-white p-4 shadow-md shadow-black flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-100 duration-500">
@@ -116,7 +116,7 @@ export default function Home() {
   </div>
 </div>
 
-</section> */}
+</section>
 
 
       {showMessage && (
@@ -124,12 +124,13 @@ export default function Home() {
           <Cta text="¡Empieza a aprender inglés ahora!" />
           <FloatingUrgency/>
           <Dolores />
-          <HowToDoIt />
-          <Cta text="¡Comienza hoy mismo!" />
-  <UrgencyTag />
           <Testimonios />
           <Cta text="Únete ahora" />
   <UrgencyTag />
+          {/* <HowToDoIt />
+          <Cta text="¡Comienza hoy mismo!" />
+  <UrgencyTag /> */}
+
           <SalesPsychologyComponent />
           <Bonus />
           <GuaranteeBanner />
