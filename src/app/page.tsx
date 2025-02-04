@@ -5,7 +5,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import VideoPlayer from './VideoPlayer'; 
 import Dolores from './dolores';
 import Testimonios from './testimonio';
-import HowToDoIt from './HowToDoIt';
+
 
 import Bonus from './Bonus';
 import Cta from './Cta';
