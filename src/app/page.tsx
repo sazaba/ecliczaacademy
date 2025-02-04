@@ -71,13 +71,13 @@ export default function Home() {
     <main className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-2">
 
 
-<div className="bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white text-center py-10 px-6 rounded-xl shadow-black shadow-md  ">
+<div className="bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white text-center py-10 px-6 rounded-xl shadow-black shadow-md">
   <h1 className="text-4xl sm:text-4xl md:text-6xl font-bold leading-snug">
     <span className="block text-4xl sm:text-8xl md:text-9xl font-extrabold animate-pulse text-yellow-400 drop-shadow-md">
-      ¡PIENSA, HABLA Y GÁNALE AL INGLÉS!
+      ¡GÁNALE AL INGLÉS AHORA!
     </span>
     <span className="text-2xl sm:text-xl md:text-2xl font-medium mt-4 block text-white">
-      Vive una experiencia <span className="text-yellow-400 font-bold">100% inmersiva</span>, diseñada para los que buscan el éxito real. Habla como un nativo, piensa como un experto y conquista el inglés.
+      Vive una experiencia <span className="text-yellow-400 font-bold">100% inmersiva</span> para hablar como un nativo y pensar como un experto. ¡El inglés al alcance de tus manos!
     </span>
   </h1>
 
@@ -85,11 +85,14 @@ export default function Home() {
     <VideoPlayer />
   </div>
 
-  <h1 className="text-xl md:text-6xl font-bold text-white leading-snug mb-4 mt-4">
-    💡 El método elegido por empresarios y líderes globales <br /><br />
-    🚀 <span className="text-yellow-400 underline">Acelera tu aprendizaje 8 veces más</span> con estrategias diseñadas para el éxito.
-  </h1>
+  <h2 className="text-xl md:text-4xl font-bold text-white leading-snug mb-4 mt-4">
+    💡 El método utilizado por empresarios y líderes globales <br />
+    🚀 <span className="text-yellow-400 underline">Acelera tu aprendizaje 8 veces más</span> con estrategias que garantizan resultados rápidos.
+  </h2>
+
+
 </div>
+
 
 
 {/* <section className="text-center max-w-4xl mx-auto px-2 mb-5">
