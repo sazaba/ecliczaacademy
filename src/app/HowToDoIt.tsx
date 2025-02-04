@@ -42,7 +42,7 @@ const HowToDoIt = () => {
           <div className="bg-blue-50 p-8 rounded-2xl shadow-lg transform transition-all duration-500 ease-in-out opacity-0 animate-fade-in">
             <h3 className="text-2xl font-bold text-blue-600 mb-4">Resultados rápidos</h3>
             <p className="text-gray-800">
-              En solo 21 días empezarás a ver avances con nuestro "English Booster Challenge". ¡Resultados rápidos y efectivos!
+              En solo 21 días empezarás a ver avances con nuestro English Booster Challenge. ¡Resultados rápidos y efectivos!
             </p>
           </div>
 
