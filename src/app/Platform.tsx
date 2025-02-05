@@ -19,7 +19,7 @@ const Platform: React.FC = () => {
         <div className="relative max-w-4xl mx-auto mb-8">
           <iframe
             width="100%"
-            height="595"
+            height="500"
             src="https://www.youtube.com/embed/35tN7vjLwkY?feature=share" // 
             title="Video de nuestra plataforma"
             frameBorder="0"
