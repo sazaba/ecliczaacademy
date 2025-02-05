@@ -15,8 +15,21 @@ const Platform: React.FC = () => {
           que necesitas para alcanzar tus metas en inglés.
         </p>
 
+        {/* Video Short */}
+        <div className="relative max-w-4xl mx-auto mb-8">
+          <iframe
+            width="100%"
+            height="595"
+            src="https://www.youtube.com/embed/35tN7vjLwkY?feature=share" // 
+            title="Video de nuestra plataforma"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            className="rounded-3xl"
+          />
+        </div>
 
-        
+        {/* Imagen de la plataforma */}
         <div className="relative max-w-4xl mx-auto p-4 bg-white rounded-3xl shadow-2xl">
           <div className="relative overflow-hidden rounded-3xl">
             <Image

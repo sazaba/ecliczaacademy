@@ -123,6 +123,7 @@ export default function Home() {
         <div className="message-container mt-0 bg-white shadow-lg rounded-lg text-center">
           <Cta text="¡Empieza a aprender inglés ahora!" />
           <FloatingUrgency/>
+          <SalesPsychologyComponent />
           <Dolores />
           <Testimonios />
           <Cta text="Únete ahora" />
@@ -131,7 +132,6 @@ export default function Home() {
           <Cta text="¡Comienza hoy mismo!" />
   <UrgencyTag /> */}
 
-          <SalesPsychologyComponent />
           <Bonus />
           <GuaranteeBanner />
           <Cta text= "Prueba sin riesgo"/>
