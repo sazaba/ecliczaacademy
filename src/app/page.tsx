@@ -70,7 +70,7 @@ export default function Home() {
   }, [showCountdown]);
 
   return (
-    <main className="max-w-4xl mx-auto min-h-screen bg-gray-50 flex flex-col items-center justify-center p-2">
+    <main className=" min-h-screen bg-gray-50 flex flex-col items-center justify-center p-2">
 
 
 <div className="bg-gradient-to-br from-black via-gray-900 to-gray-800 text-white text-center py-12 px-6 rounded-xl shadow-lg shadow-black max-w-4xl mx-auto">
