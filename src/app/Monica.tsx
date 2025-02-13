@@ -4,7 +4,7 @@ import M5 from './images/M5.webp'
 
 const Monica = () => {
   return (
-    <section className="bg-gradient-to-b from-gray-100 to-white py-16 px-2 md:px-24">
+    <section className="bg-gradient-to-b from-gray-100 to-white py-1 px-2 md:px-24">
       <div className="max-w-full mx-auto text-center">
         <h1 className="text-5xl font-black mb-10 text-gray-900 tracking-tight leading-tight">
           ¡Conoce a Mónica, <br/> la creadora del Metodo Eclicza 2.0!

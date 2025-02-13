@@ -1,116 +1,88 @@
-
 import React from "react";
-
-
+import Cta from "./Cta";
+import { Gift, CheckCircle } from "lucide-react";
 
 const Bonus = () => {
   return (
-    <section className="bg-gradient-to-r from-red-600 to-orange-500 text-white py-12 px-6 mb-10 mt-3">
-      <div className="max-w-5xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-extrabold text-center mb-8">
-          🎁 Bonos Exclusivos que Llevan tu Inglés al Siguiente Nivel 🎁
+    <section className="bg-gradient-to-r from-red-700 to-orange-600 text-white py-16 px-8 mb-12 mt-6">
+      <div className="max-w-5xl mx-auto text-center">
+        <h2 className="text-5xl md:text-6xl font-extrabold mb-6 drop-shadow-xl">
+          🎁 ¡Bonos Exclusivos para Potenciar tu Inglés! 🚀
         </h2>
-        <p className="text-lg text-center mb-8 leading-relaxed">
-          Inscribirte hoy no solo te dará acceso al curso más completo de inglés, sino también a{" "}
-          <span className="text-yellow-300 font-semibold">BONOS EXTRA</span> diseñados para maximizar tus resultados. ¡Esto es lo que hará que tu experiencia sea única y completa! 🚀
+        <p className="text-lg md:text-xl leading-relaxed">
+          Al inscribirte <span className="text-yellow-300 font-semibold">hoy</span>, recibirás estos bonos
+          diseñados para que domines el inglés en tiempo récord. ¡Aprovecha esta oportunidad única! 🎯
         </p>
-
-        <div className="space-y-8">
-          {/* Bono 1 */}
-          <div className="bg-white text-gray-800 rounded-lg p-6 shadow-lg">
-            <h3 className="text-2xl font-semibold text-red-600 mb-3">
-              1️⃣ Guía: Cómo preparar tu CV y entrevistas en inglés
-            </h3>
-            <p className="leading-relaxed">
-              👉 Destaca en procesos laborales internacionales. Aprende a redactar un currículum profesional, responder preguntas comunes en entrevistas y mostrar seguridad en inglés para triunfar en el ámbito laboral.
-            </p>
-            <p className="mt-2 text-gray-700 font-semibold">**(Valor: $150 USD)**</p>
-          </div>
-
-          {/* Bono 2 */}
-          <div className="bg-white text-gray-800 rounded-lg p-6 shadow-lg">
-            <h3 className="text-2xl font-semibold text-red-600 mb-3">
-              2️⃣ Pack de 50 frases infalibles para viajar 🌍
-            </h3>
-            <p className="leading-relaxed">
-              👉 El aliado perfecto para tus próximas aventuras. Incluye expresiones útiles para aeropuertos, restaurantes, hoteles y más, para que viajes sin miedo y te comuniques con total confianza.
-            </p>
-            <p className="mt-2 text-gray-700 font-semibold">**(Valor: $100 USD)**</p>
-          </div>
-
-          {/* Bono 3 */}
-          <div className="bg-white text-gray-800 rounded-lg p-6 shadow-lg">
-            <h3 className="text-2xl font-semibold text-red-600 mb-3">
-              3️⃣ Taller exclusivo: Cómo superar el TOEFL/IELTS con éxito 🎯
-            </h3>
-            <p className="leading-relaxed">
-              👉 Estrategias y tips prácticos para destacar en estas certificaciones. Te enseñaremos cómo abordar cada sección del examen con seguridad y obtener una calificación sobresaliente.
-            </p>
-            <p className="mt-2 text-gray-700 font-semibold">**(Valor: $200 USD)**</p>
-          </div>
-
-          {/* Bono 4 */}
-          <div className="bg-white text-gray-800 rounded-lg p-6 shadow-lg">
-            <h3 className="text-2xl font-semibold text-red-600 mb-3">
-              4️⃣ Biblioteca digital de recursos avanzados 📚
-            </h3>
-            <p className="leading-relaxed">
-              👉 Refuerza lo aprendido con libros, guías y ejercicios interactivos. Este material complementario te ayudará a practicar por tu cuenta y dominar cada aspecto del inglés.
-            </p>
-            <p className="mt-2 text-gray-700 font-semibold">**(Valor: $120 USD)**</p>
-          </div>
-
-          {/* Bono 5 */}
-          <div className="bg-white text-gray-800 rounded-lg p-6 shadow-lg">
-            <h3 className="text-2xl font-semibold text-red-600 mb-3">
-              5️⃣ Plantillas listas para conversaciones reales 🗣️
-            </h3>
-            <p className="leading-relaxed">
-              👉 Domina conversaciones del día a día. Incluye guiones y plantillas prácticas para situaciones reales como pedir comida, hacer reservas, reuniones de trabajo y más, para que te sientas seguro en cualquier contexto.
-            </p>
-            <p className="mt-2 text-gray-700 font-semibold">**(Valor: $150 USD)**</p>
-          </div>
-
-          {/* Bono 6 */}
-          <div className="bg-white text-gray-800 rounded-lg p-6 shadow-lg">
-            <h3 className="text-2xl font-semibold text-red-600 mb-3">
-              6️⃣ Acceso de por vida a todas las actualizaciones 🚀
-            </h3>
-            <p className="leading-relaxed">
-              👉 Tu curso crecerá contigo. Obtén sin costo adicional cualquier nueva lección, herramienta o material que agreguemos al curso.
-            </p>
-            <p className="mt-2 text-gray-700 font-semibold">**(Valor: $130 USD)**</p>
-          </div>
-
-          {/* Bono 7 */}
-          <div className="bg-white text-gray-800 rounded-lg p-6 shadow-lg">
-            <h3 className="text-2xl font-semibold text-red-600 mb-3">
-              7️⃣ Masterclass: Pronunciación Nativa 💬
-            </h3>
-            <p className="leading-relaxed">
-              👉 Haz que tu inglés suene auténtico y natural. Aprende las claves de la pronunciación, entonación y ritmo con ejercicios prácticos y técnicas que te harán sonar como un hablante nativo.
-            </p>
-            <p className="mt-2 text-gray-700 font-semibold">**(Valor: $150 USD)**</p>
-          </div>
-        </div>
-
-        {/* Llamado a la acción */}
-        <div className="text-center mt-10">
-          <p className="text-lg text-yellow-300 font-bold">
-            🎉 BONOS TOTALMENTE GRATIS (Valor total: $1,000 USD)
-          </p>
-          <p className="mt-2">
-            ¡Todo este contenido adicional es tuyo sin costo extra al inscribirte <span className="font-semibold">HOY</span>!
-          </p>
-          <p className="mt-2 text-yellow-200">
-            🔐 Esta oferta es por tiempo limitado. No pierdas la oportunidad de recibir todo este valor por una fracción de su precio.
-          </p>
-        </div>
       </div>
-     
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
+        {bonuses.map((bonus, index) => (
+          <div
+            key={index}
+            className="bg-white text-gray-900 rounded-2xl p-6 shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-2xl"
+          >
+            <h3 className="text-2xl font-bold text-red-600 flex items-center gap-2 mb-3">
+              <Gift size={28} className="text-orange-500" /> {bonus.title}
+            </h3>
+            <p className="leading-relaxed text-gray-800">{bonus.description}</p>
+            <p className="mt-2 text-gray-600 font-semibold">{bonus.value}</p>
+          </div>
+        ))}
+      </div>
+
+      {/* Destacar el total de los bonos */}
+      <div className="text-center mt-12">
+        <p className="text-2xl font-bold text-yellow-300 flex items-center justify-center gap-2">
+          <CheckCircle size={28} /> ¡Bonos valorados en más de <span className="text-yellow-400">$1,000 USD</span>!
+        </p>
+        <p className="mt-2 text-lg">
+          🎉 Todo esto es tuyo <span className="font-semibold">GRATIS</span> al inscribirte hoy. ¡Oferta por tiempo limitado!
+        </p>
+      </div>
+
+      <Cta />
     </section>
   );
 };
 
+const bonuses = [
+  {
+    title: "1️⃣ Guía: CV y entrevistas en inglés",
+    description: "Aprende a crear un currículum impactante y responder entrevistas con seguridad.",
+    value: "**(Valor: $150 USD)**",
+  },
+  {
+    title: "2️⃣ Pack de 50 frases infalibles para viajar 🌍",
+    description: "Expresiones clave para aeropuertos, hoteles y más. Viaja sin miedo y con confianza.",
+    value: "**(Valor: $100 USD)**",
+  },
+  {
+    title: "3️⃣ Taller: Cómo superar el TOEFL/IELTS 🎯",
+    description: "Domina estrategias efectivas para obtener una calificación sobresaliente.",
+    value: "**(Valor: $200 USD)**",
+  },
+  {
+    title: "4️⃣ Biblioteca digital de recursos avanzados 📚",
+    description: "Accede a libros, guías y ejercicios interactivos para reforzar tu aprendizaje.",
+    value: "**(Valor: $120 USD)**",
+  },
+  {
+    title: "5️⃣ Plantillas para conversaciones reales 🗣️",
+    description: "Guiones prácticos para que hables inglés con confianza en cualquier situación.",
+    value: "**(Valor: $150 USD)**",
+  },
+  {
+    title: "6️⃣ Acceso de por vida a actualizaciones 🚀",
+    description: "Recibe todas las nuevas lecciones y mejoras sin costo adicional.",
+    value: "**(Valor: $130 USD)**",
+  },
+  {
+    title: "7️⃣ Masterclass: Pronunciación Nativa 💬",
+    description: "Aprende a sonar como un hablante nativo con técnicas avanzadas de pronunciación.",
+    value: "**(Valor: $150 USD)**",
+  },
+];
+
 export default Bonus;
+
 

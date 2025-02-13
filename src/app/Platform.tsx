@@ -15,7 +15,7 @@ const Platform: React.FC = () => {
           que necesitas para alcanzar tus metas en inglés.
         </p>
 
-        {/* Video Short */}
+        {/* Video Short
         <div className="relative max-w-4xl mx-auto mb-8">
           <iframe
             width="100%"
@@ -27,7 +27,7 @@ const Platform: React.FC = () => {
             allowFullScreen
             className="rounded-3xl"
           />
-        </div>
+        </div> */}
 
         {/* Imagen de la plataforma */}
         <div className="relative max-w-4xl mx-auto p-4 bg-white rounded-3xl shadow-2xl">

@@ -18,6 +18,8 @@ import FAQ from './FAQ';
 import Monica from './Monica';
 import UrgencyTag from './UrgencyTag';
 import SalesPsychologyComponent from './SalesPsychologyComponent';
+import FAQSection from './FAQSection';
+import HowToDoIt from './HowToDoIt';
 
 
 export default function Home() {
@@ -71,78 +73,96 @@ export default function Home() {
     <main className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-2">
 
 
-<div className="bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white text-center py-10 px-6 rounded-xl shadow-black shadow-md">
-  <h1 className="text-4xl sm:text-4xl md:text-6xl font-bold leading-snug">
-    <span className="block text-4xl sm:text-8xl md:text-9xl font-extrabold animate-pulse text-yellow-400 drop-shadow-md">
-      ¡GÁNALE AL INGLÉS AHORA!
+<div className="bg-gradient-to-br from-black via-gray-900 to-gray-800 text-white text-center py-12 px-6 rounded-xl shadow-lg shadow-black max-w-4xl mx-auto">
+  {/* Título Impactante */}
+  <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold leading-tight">
+    <span className="block text-5xl sm:text-7xl md:text-8xl font-extrabold text-yellow-400 animate-pulse drop-shadow-lg">
+     Domina el Inglés de Una Vez por Todas <br/>🔥
     </span>
-    <span className="text-2xl sm:text-xl md:text-2xl font-medium mt-4 block text-white">
-      Vive una experiencia <span className="text-yellow-400 font-bold">100% inmersiva</span> para hablar como un nativo y pensar como un experto. ¡El inglés al alcance de tus manos!
+    <span className="text-lg sm:text-xl md:text-2xl font-medium mt-4 block text-gray-300">
+      Vive una experiencia <span className="text-yellow-400 font-bold">100% inmersiva</span> para hablar como un nativo y pensar como un experto.
     </span>
   </h1>
 
-  <div className="w-full aspect-video mx-auto rounded-lg shadow-lg overflow-hidden mt-8 bg-gray-700">
-    <VideoPlayer />
-  </div>
+  {/* Video Destacado */}
+  <div className="w-full max-w-5xl mx-auto aspect-video rounded-lg shadow-lg overflow-hidden mt-10 bg-gray-700 border-2 border-gray-600 hover:scale-105 transition-transform duration-300">
+  <VideoPlayer />
+</div>
 
-  <h2 className="text-xl md:text-4xl font-bold text-white leading-snug mb-4 mt-4">
-    💡 El método utilizado por empresarios y líderes globales <br />
-    🚀 <span className="text-yellow-400 underline">Acelera tu aprendizaje 8 veces más</span> con estrategias que garantizan resultados rápidos.
+
+  {/* Subtítulo Destacado */}
+  <h2 className="text-lg sm:text-2xl md:text-3xl font-bold text-white leading-relaxed mt-8">
+    💡 El método que utilizan empresarios y líderes globales  
+    <br />
+    🚀 <span className="text-yellow-400 underline">Acelera tu aprendizaje 8 veces más</span> con estrategias probadas y resultados garantizados.
   </h2>
-
-
 </div>
 
-
-
-<section className="text-center max-w-4xl mx-auto px-2 mb-5">
-
-<div className="grid grid-cols-2 md:grid-cols-4 gap-4 px-1 mt-6">
-  <div className="bg-gradient-to-br from-blue-600 to-teal-600 text-white p-4 shadow-md shadow-black flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-100 duration-500">
-    <span className="text-4xl mb-2">🇪🇸</span>
-    <p className="text-sm md:text-base font-semibold">Aprende como dominaste el español, de forma intuitiva.</p>
-  </div>
-  <div className="bg-gradient-to-br from-blue-600 to-teal-600 text-white p-4 shadow-md shadow-black flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-200 duration-500">
-    <span className="text-4xl mb-2">🌍</span>
-    <p className="text-sm md:text-base font-semibold">Accede a prácticas inmersivas con escenarios reales.</p>
-  </div>
-  <div className="bg-gradient-to-br from-blue-600 to-teal-600 text-white p-4 shadow-md shadow-black flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-300 duration-500">
-    <span className="text-4xl mb-2">🤖</span>
-    <p className="text-sm md:text-base font-semibold">Tecnología avanzada para un aprendizaje personalizado.</p>
-  </div>
-  <div className="bg-gradient-to-br from-blue-600 to-teal-600 text-white p-4 shadow-md shadow-black flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-400 duration-500">
-    <span className="text-4xl mb-2">⏱️</span>
-    <p className="text-sm md:text-base font-semibold">Resultados visibles en tiempo récord.</p>
-  </div>
-</div>
-
-</section>
+    
+    
+    
+    <section className="text-center max-w-4xl mx-auto px-2 mb-5">
+    
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 px-1 mt-6">
+      <div className="bg-gradient-to-br from-blue-600 to-teal-600 text-white p-4 shadow-md shadow-black flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-100 duration-500">
+        <span className="text-4xl mb-2">🇪🇸</span>
+        <p className="text-sm md:text-base font-semibold">Aprende como dominaste el español, de forma intuitiva.</p>
+      </div>
+      <div className="bg-gradient-to-br from-blue-600 to-teal-600 text-white p-4 shadow-md shadow-black flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-200 duration-500">
+        <span className="text-4xl mb-2">🌍</span>
+        <p className="text-sm md:text-base font-semibold">Accede a prácticas inmersivas con escenarios reales.</p>
+      </div>
+      <div className="bg-gradient-to-br from-blue-600 to-teal-600 text-white p-4 shadow-md shadow-black flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-300 duration-500">
+        <span className="text-4xl mb-2">🤖</span>
+        <p className="text-sm md:text-base font-semibold">Tecnología avanzada para un aprendizaje personalizado.</p>
+      </div>
+      <div className="bg-gradient-to-br from-blue-600 to-teal-600 text-white p-4 shadow-md shadow-black flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-400 duration-500">
+        <span className="text-4xl mb-2">⏱️</span>
+        <p className="text-sm md:text-base font-semibold">Resultados visibles en tiempo récord.</p>
+      </div>
+    </div>
+    
+    </section>
 
 
       {showMessage && (
         <div className="message-container mt-0 bg-white shadow-lg rounded-lg text-center">
-          <Cta text="¡Empieza a aprender inglés ahora!" />
-          <FloatingUrgency/>
-          <SalesPsychologyComponent />
-          <Dolores />
-          <Testimonios />
-          <Cta text="Únete ahora" />
-  <UrgencyTag />
-          {/* <HowToDoIt />
-          <Cta text="¡Comienza hoy mismo!" />
-  <UrgencyTag /> */}
 
-          <Bonus />
+          <Cta text="¡Quiero Aprender Inglés!" />
+          <FloatingUrgency/>
+
+          <Testimonios />
+          <Cta text="Quiero ser el próximo" />
+
+          <SalesPsychologyComponent />
+
+          <Dolores />
+ 
+
+          <HowToDoIt />
+          <Cta text="¡Comienza hoy mismo!" />
+          <UrgencyTag />
+
+          <Platform/>
+
+          <FAQ />
+
+          <FAQSection/>
+          <Cta text="¡Última oportunidad!"/>
+          <UrgencyTag />
+
           <GuaranteeBanner />
           <Cta text= "Prueba sin riesgo"/>
-  <UrgencyTag />
+          <UrgencyTag />
+
+          <Bonus />
+
           <Monica />  
           <Cta text= "Aprende con Mónica"/>
-  <UrgencyTag />
-          <Platform/>
-          <FAQ />
-          <Cta text="¡Última oportunidad!"/>
-  <UrgencyTag />
+          <UrgencyTag />
+          
+
+          
   
   <div className="mt-3 mb-3">
     <Image

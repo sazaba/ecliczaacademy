@@ -2,7 +2,7 @@ import React from 'react';
 
 function Testimonials() {
   return (
-    <section className="bg-white py-6 px-6 md:px-20">
+    <section className="bg-white py-2 px-6 md:px-20">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-5xl font-black text-gray-900 mb-10 tracking-tight leading-tight">
           Historias que Inspiran: ¡Transforma tu Vida con Inglés!
@@ -13,6 +13,11 @@ function Testimonials() {
 
         <div className="flex flex-wrap justify-center gap-8">
           {[{
+              video: "https://www.youtube.com/embed/gjTy7AbqTj8",
+              name: "Cristian",
+              text: "Logré Alcanzar el nivel B2. ¡Estoy Fascinado!"
+            },
+            {
               video: "https://www.youtube.com/embed/aTTfZ1uTL6c",
               name: "Andrea",
               text: "Nunca pensé que aprender inglés podría ser tan sencillo y emocionante. ¡Este curso lo hizo posible!"
@@ -45,7 +50,7 @@ function Testimonials() {
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
-                className="rounded-lg mb-4"
+                className="rounded-lg mb-2"
               ></iframe>
               <h3 className="text-2xl font-semibold text-white mb-2">{testimonial.name}</h3>
               <p className="text-white text-base">{testimonial.text}</p>
@@ -58,3 +63,4 @@ function Testimonials() {
 }
 
 export default Testimonials;
+
