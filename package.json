@@ -9,18 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@fortawesome/duotone-light-svg-icons": "^6.7.0",
-    "@fortawesome/duotone-regular-svg-icons": "^6.7.0",
-    "@fortawesome/duotone-thin-svg-icons": "^6.7.0",
-    "@fortawesome/fontawesome-free": "^6.6.0",
-    "@fortawesome/fontawesome-svg-core": "^6.7.0",
+    "@fortawesome/fontawesome-free": "^6.7.2",
     "@vercel/analytics": "^1.4.1",
     "@vercel/speed-insights": "^1.1.0",
     "framer-motion": "^12.4.2",
     "lucide-react": "^0.475.0",
     "next": "15.0.3",
-    "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "swiper": "^11.2.3"
   },
   "devDependencies": {
