@@ -32,8 +32,8 @@ const SalesPsychologyComponent = () => {
   }, []);
 
   return (
-    <div className="  mt-2 text-center  py-10 px-4 md:px-14 bg-gradient-to-r from-indigo-700 to-purple-600 text-white rounded-2xl shadow-lg shadow-black">
-      <h2 className="text-4xl font-extrabold mb-5 uppercase tracking-wide animate-pulse">
+    <div className="w-full  mt-2 text-center  py-10 px-4 md:px-14 bg-gradient-to-r from-indigo-700 to-purple-600 text-white rounded-2xl shadow-lg shadow-black">
+      <h2 className="text-3xl font-extrabold mb-5 uppercase tracking-wide animate-pulse">
         ¡Oferta Exclusiva por Tiempo Limitado! 🚀 
       </h2>
       <p className="text-lg md:text-xl mb-6 font-medium">
