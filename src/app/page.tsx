@@ -148,7 +148,7 @@ export default function Home() {
           <FAQ />
 
           <FAQSection/>
-          <Cta text="¡Última oportunidad!"/>
+          <Cta text="¡Aprende Inglés Hoy!"/>
           <UrgencyTag />
 
           <GuaranteeBanner />
