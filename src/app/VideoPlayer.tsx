@@ -4,7 +4,7 @@ const VideoPlayer = () => {
   useEffect(() => {
     // Cargar el script solo una vez cuando el componente se monta
     const script = document.createElement('script');
-    script.src = 'https://scripts.converteai.net/61a3f07e-18b1-4742-b769-32c6e9519df2/players/677be7d41beda31ebad14cb9/player.js';
+    script.src = 'https://scripts.converteai.net/3687d5dc-9e85-4979-bb5e-c7c7bbf7f030/players/67b4a22ff069f7ce83a24837/player.js';
     script.async = true;
     document.head.appendChild(script);
 
@@ -15,15 +15,15 @@ const VideoPlayer = () => {
   }, []); // El array vacío significa que este efecto solo se ejecuta una vez
 
   return (
-    <div id="vid_677be7d41beda31ebad14cb9" style={{ position: 'relative', width: '100%', padding: '56.25% 0 0' }}>
+    <div id="vid_67b4a22ff069f7ce83a24837" style={{ position: 'relative', width: '100%', padding: '56.25% 0 0' }}>
       <img
-        id="thumb_677be7d41beda31ebad14cb9"
-        src="https://images.converteai.net/61a3f07e-18b1-4742-b769-32c6e9519df2/players/677be7d41beda31ebad14cb9/thumbnail.jpg"
+        id="thumb_67b4a22ff069f7ce83a24837"
+        src="https://images.converteai.net/3687d5dc-9e85-4979-bb5e-c7c7bbf7f030/players/67b4a22ff069f7ce83a24837/thumbnail.jpg"
         alt="thumbnail"
         style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
       />
       <div
-        id="backdrop_677be7d41beda31ebad14cb9"
+        id="backdrop_67b4a22ff069f7ce83a24837"
         style={{
           WebkitBackdropFilter: 'blur(5px)',
           backdropFilter: 'blur(5px)',
@@ -38,6 +38,3 @@ const VideoPlayer = () => {
 };
 
 export default VideoPlayer;
-
-
-

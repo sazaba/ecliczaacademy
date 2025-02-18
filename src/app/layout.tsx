@@ -51,14 +51,17 @@ export default function RootLayout({
             src="https://www.facebook.com/tr?id=951295253720594&ev=PageView&noscript=1"
           />
         </noscript>
-        <link rel="preload" href="https://scripts.converteai.net/2ffe5a85-c74f-4a8b-a275-5f727ac3597d/players/676a1e64572299dbc2d8f8cc/player.js" as="script" />
-        <link rel="preload" href="https://scripts.converteai.net/lib/js/smartplayer/v1/smartplayer.min.js" as="script" />
-        <link rel="preload" href="https://images.converteai.net/2ffe5a85-c74f-4a8b-a275-5f727ac3597d/players/676a1e64572299dbc2d8f8cc/thumbnail.jpg" as="image" />
-        <link rel="preload" href="https://cdn.converteai.net/2ffe5a85-c74f-4a8b-a275-5f727ac3597d/676a1d984c30e94b5ab6e136/main.m3u8" as="fetch" />
-        <link rel="dns-prefetch" href="https://cdn.converteai.net" />
-        <link rel="dns-prefetch" href="https://scripts.converteai.net" />
-        <link rel="dns-prefetch" href="https://images.converteai.net" />
-        <link rel="dns-prefetch" href="https://api.vturb.com.br" />
+        
+        <link rel="preload" href="https://scripts.converteai.net/3687d5dc-9e85-4979-bb5e-c7c7bbf7f030/players/67b4a22ff069f7ce83a24837/player.js" as="script"/>
+<link rel="preload" href="https://scripts.converteai.net/lib/js/smartplayer/v1/smartplayer.min.js" as="script"/>
+<link rel="preload" href="https://images.converteai.net/3687d5dc-9e85-4979-bb5e-c7c7bbf7f030/players/67b4a22ff069f7ce83a24837/thumbnail.jpg" as="image"/>
+<link rel="preload" href="https://cdn.converteai.net/3687d5dc-9e85-4979-bb5e-c7c7bbf7f030/67b4a1fd54eeec1f2f9c482b/main.m3u8" as="fetch"/>
+<link rel="dns-prefetch" href="https://cdn.converteai.net"/>
+<link rel="dns-prefetch" href="https://scripts.converteai.net"/>
+<link rel="dns-prefetch" href="https://images.converteai.net"/>
+<link rel="dns-prefetch" href="https://api.vturb.com.br"/>
+
+
       </head>
       <body>
         {children}
