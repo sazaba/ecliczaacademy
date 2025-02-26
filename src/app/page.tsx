@@ -128,11 +128,11 @@ export default function Home() {
       {showMessage && (
         <div className="message-container mt-0 bg-white shadow-lg rounded-lg text-center">
 
-          <Cta text="¡Quiero Aprender Inglés!" />
+          <Cta />
           <FloatingUrgency/>
 
           <Testimonios />
-          <Cta text="Quiero ser el próximo" />
+          <Cta />
 
           <SalesPsychologyComponent />
 
@@ -140,7 +140,7 @@ export default function Home() {
  
 
           <HowToDoIt />
-          <Cta text="¡Comienza hoy mismo!" />
+          <Cta />
           <UrgencyTag />
 
           <Platform/>
@@ -148,17 +148,17 @@ export default function Home() {
           <FAQ />
 
           <FAQSection/>
-          <Cta text="¡Aprende Inglés Hoy!"/>
+          <Cta />
           <UrgencyTag />
 
           <GuaranteeBanner />
-          <Cta text= "Prueba sin riesgo"/>
+          <Cta />
           <UrgencyTag />
 
           <Bonus />
 
           <Monica />  
-          <Cta text= "Aprende con Mónica"/>
+          <Cta />
           <UrgencyTag />
           
 
