@@ -1,7 +1,7 @@
 import React from "react";
 import { FaTelegramPlane } from "react-icons/fa";
 
-const Cta = ({ text = "¡Quiero aprender inglés!" }) => {
+const Cta = () => {
   return (
     <div className="cta-buttons mt-6 flex flex-col sm:flex-row justify-center gap-4">
       <a
