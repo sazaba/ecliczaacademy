@@ -32,7 +32,7 @@ const SalesPsychologyComponent = () => {
   }, []);
 
   return (
-    <div className="  mt-2 text-center  py-10 px-4 md:px-14 bg-gradient-to-r from-indigo-700 to-purple-600 text-white rounded-2xl shadow-lg shadow-black">
+    <div className="  mt-2 text-center  py-10 px-2 md:px-14 bg-gradient-to-r from-indigo-700 to-purple-600 text-white rounded-2xl shadow-lg shadow-black">
       <h2 className="text-3xl font-extrabold mb-5 uppercase tracking-wide animate-pulse">
         ¡Oferta Exclusiva por Tiempo Limitado! 🚀 
       </h2>
@@ -40,12 +40,12 @@ const SalesPsychologyComponent = () => {
         ¡Aprende inglés por menos de $9.000 COP diarios! menos de lo que vale un cafe en juan valdez
       </p>
 
-      <div className="flex justify-center space-x-3 items-center mb-8">
+      <div className="flex justify-center space-x-2 items-center mb-8">
         <div className="text-2xl md:text-3xl font-semibold text-gray-300 line-through">
           <p>Antes:</p>
           <span className="text-gray-400">$4.467.000</span>
         </div>
-        <div className="text-4xl md:text-5xl font-bold text-green-400 bg-white px-6 py-3 rounded-xl shadow-md">
+        <div className="text-2xl md:text-5xl font-bold text-green-400 bg-white px-6 py-3 rounded-xl shadow-md">
           <p>Ahora:</p>
           <span>$260.000</span>
         </div>

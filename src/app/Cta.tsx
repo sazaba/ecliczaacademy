@@ -1,16 +1,20 @@
 import React from "react";
+import { FaTelegramPlane } from "react-icons/fa";
 
 const Cta = ({ text = "¡Quiero aprender inglés!" }) => {
   return (
-    <div className="cta-buttons mt-6 flex justify-center">
+    <div className="cta-buttons mt-6 flex flex-col sm:flex-row justify-center gap-4">
       <a
-        href="https://pay.hotmart.com/N93858012D?checkoutMode=10"
-        className="bg-green-500 shadow-black text-white py-4 px-5 rounded-full text-lg md:text-xl font-bold shadow-sm transform transition-all duration-500 ease-in-out hover:bg-orange-600 hover:scale-105 hover:shadow-2xl w-[90%] sm:w-auto text-center animate-bounce-persuade"
-        aria-label="Botón para adquirir el curso de inglés"
+        href="https://t.me/+ic7bJpbn-hM2ZGFh"
+        className="bg-[#0088cc] text-white py-4 px-5 rounded-full text-lg md:text-xl font-bold shadow-sm transform transition-all duration-500 ease-in-out hover:bg-[#007bb5] hover:scale-105 hover:shadow-2xl flex items-center justify-center gap-2 w-[90%] sm:w-auto m-auto animate-bounce-persuade"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Unirse al canal de Telegram"
       >
-        {text}
+        <FaTelegramPlane className="text-white text-2xl" />
+        Únete al entrenamiento
       </a>
-
+      
       <style jsx>{`
         @keyframes bounce-persuade {
           0%, 100% {
@@ -30,3 +34,5 @@ const Cta = ({ text = "¡Quiero aprender inglés!" }) => {
 };
 
 export default Cta;
+
+
