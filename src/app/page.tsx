@@ -152,8 +152,7 @@ export default function Home() {
           <UrgencyTag />
 
           <GuaranteeBanner />
-          <Cta />
-          <UrgencyTag />
+          
 
           <Bonus />
 

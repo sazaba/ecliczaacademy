@@ -38,13 +38,24 @@ const FAQ = () => {
   ];
 
   return (
-    <div className="faq-wrapper relative isolate overflow-hidden w-full  py-16 px-4">
+    <div className="faq-wrapper relative isolate overflow-hidden w-full py-16 px-4">
       <div className="max-w-4xl mx-auto text-center">
-      <h2 className="block text-4xl sm:text-5xl md:text-6xl font-extrabold text-orange-500 drop-shadow-lg">
-  ¿Qué aprenderé en este Curso? 📚
-</h2>
+        <h2 className="block text-4xl sm:text-5xl md:text-6xl font-extrabold text-orange-500 drop-shadow-lg">
+          ¿Qué aprenderé en este Curso? 📚
+        </h2>
+      </div>
 
-
+      {/* Video */}
+      <div className="flex justify-center my-8 ">
+        <iframe className="rounded-md"
+          width="100%"
+          height="500"
+          src="https://www.youtube.com/embed/vSBtHOMGmR0"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
       </div>
 
       {/* Grid para pantallas grandes */}

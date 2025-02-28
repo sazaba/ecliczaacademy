@@ -1,18 +1,19 @@
 import React from "react";
-import { FaTelegramPlane } from "react-icons/fa";
+import Image from "next/image";
+import Hot from '@/app/images/Hot.webp';
 
 const Cta = () => {
   return (
     <div className="cta-buttons mt-6 flex flex-col sm:flex-row justify-center gap-4">
       <a
-        href="https://t.me/+ic7bJpbn-hM2ZGFh"
-        className="bg-[#0088cc] text-white py-4 px-5 rounded-full text-lg md:text-xl font-bold shadow-sm transform transition-all duration-500 ease-in-out hover:bg-[#007bb5] hover:scale-105 hover:shadow-2xl flex items-center justify-center gap-2 w-[90%] sm:w-auto m-auto animate-bounce-persuade"
+        href="https://pay.hotmart.com/N93858012D?off=qtj68835"
+        className="bg-gradient-to-r from-[#000000] to-[#363636] text-white py-4 px-6 rounded-full text-lg md:text-xl font-bold shadow-md transform transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-2xl flex items-center justify-center gap-3 w-[90%] sm:w-auto m-auto animate-bounce-persuade"
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Unirse al canal de Telegram"
+        aria-label="Sí, dame acceso inmediato"
       >
-        <FaTelegramPlane className="text-white text-2xl" />
-        Únete al entrenamiento
+        <Image src={Hot} alt="Hotmart" width={28} height={28} />
+        Sí, dame acceso inmediato
       </a>
       
       <style jsx>{`
@@ -34,5 +35,3 @@ const Cta = () => {
 };
 
 export default Cta;
-
-

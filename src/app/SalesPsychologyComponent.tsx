@@ -37,7 +37,7 @@ const SalesPsychologyComponent = () => {
         ¡Oferta Exclusiva por Tiempo Limitado! 🚀 
       </h2>
       <p className="text-lg md:text-xl mb-6 font-medium">
-        ¡Aprende inglés por menos de $9.000 COP diarios! menos de lo que vale un cafe en juan valdez
+        ¡Aprende inglés por menos de $9.000 COP diarios! menos de lo que vale un cafe en Juan Valdez ☕
       </p>
 
       <div className="flex justify-center space-x-2 items-center mb-8">
@@ -47,7 +47,7 @@ const SalesPsychologyComponent = () => {
         </div>
         <div className="text-2xl md:text-5xl font-bold text-green-400 bg-white px-6 py-3 rounded-xl shadow-md">
           <p>Ahora:</p>
-          <span>$260.000</span>
+          <span>$359.900</span>
         </div>
       </div>
 

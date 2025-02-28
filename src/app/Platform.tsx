@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import TP from './images/TP.webp';
+import Hp from './images/Hp.webp';
 
 const Platform: React.FC = () => {
   return (
@@ -33,7 +33,7 @@ const Platform: React.FC = () => {
         <div className="relative max-w-4xl mx-auto p-4 bg-white rounded-3xl shadow-2xl">
           <div className="relative overflow-hidden rounded-3xl">
             <Image
-              src={TP}
+              src={Hp}
               alt="Vista previa de nuestra plataforma de aprendizaje"
               layout="responsive"
               width={1920} // Proporción 16:9
