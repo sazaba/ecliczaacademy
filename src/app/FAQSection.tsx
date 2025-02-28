@@ -53,7 +53,7 @@ const FAQSection = () => {
   };
 
   return (
-    <section className="bg-gray-900 text-white py-20 px-6 md:px-16 rounded-2xl shadow-black shadow-lg">
+    <section className="bg-gray-900 text-white py-20 px-6 md:px-16 rounded-b-xl shadow-black shadow-lg">
       <div className="max-w-4xl mx-auto text-center">
         <motion.h2
           initial={{ opacity: 0, y: -20 }}

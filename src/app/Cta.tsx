@@ -7,7 +7,7 @@ const Cta = () => {
     <div className="cta-buttons mt-6 flex flex-col sm:flex-row justify-center gap-4">
       <a
         href="https://pay.hotmart.com/N93858012D?off=qtj68835"
-        className="bg-gradient-to-r from-[#000000] to-[#363636] text-white py-4 px-6 rounded-full text-lg md:text-xl font-bold shadow-md transform transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-2xl flex items-center justify-center gap-3 w-[90%] sm:w-auto m-auto animate-bounce-persuade"
+        className="bg-gradient-to-r from-[#000000] to-[#363636] text-white py-4 px-2 rounded-full text-lg md:text-xl font-bold shadow-md transform transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-2xl flex items-center justify-center gap-3 w-[90%] sm:w-auto m-auto animate-bounce-persuade"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Sí, dame acceso inmediato"
