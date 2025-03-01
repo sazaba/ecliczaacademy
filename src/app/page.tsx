@@ -77,10 +77,10 @@ export default function Home() {
   {/* Título Impactante */}
   <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold leading-tight">
     <span className="block text-5xl sm:text-7xl md:text-8xl font-extrabold text-yellow-400 animate-pulse drop-shadow-lg">
-     Domina el Inglés de Una Vez por Todas <br/>🔥
+    Habla Inglés en Solo 3 Meses<br/>🔥
     </span>
     <span className="text-lg sm:text-xl md:text-2xl font-medium mt-4 block text-gray-300">
-      Vive una experiencia <span className="text-yellow-400 font-bold">100% inmersiva</span> para hablar como un nativo y pensar como un experto.
+    Únete a  <span className="text-yellow-400 font-bold">+3,000 Estudiantes</span> que ya Hablan Inglés con Nuestro Método.
     </span>
   </h1>
 
