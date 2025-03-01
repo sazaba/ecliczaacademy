@@ -47,7 +47,7 @@ const SalesPsychologyComponent = () => {
         </div>
         <div className="text-2xl md:text-5xl font-bold text-green-400 bg-white px-6 py-3 rounded-xl shadow-md">
           <p>Ahora:</p>
-          <span>$359.900</span>
+          <span>$350.000</span>
         </div>
       </div>
 
