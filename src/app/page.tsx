@@ -5,8 +5,11 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import VideoPlayer from './VideoPlayer'; 
 import Dolores from './dolores';
 import Testimonios from './testimonio';
-
-
+import Shaki from '@/app/images/Shaki.webp'
+import Jbalvin from '@/app/images/Jbalvin.webp'
+import Maluma from '@/app/images/Maluma.webp'
+import Juanes from '@/app/images/Juanes.webp'
+import BackgroundImage from "@/app/images/Concert.webp";
 import Bonus from './Bonus';
 import Cta from './Cta';
 import Image from 'next/image';
@@ -70,59 +73,81 @@ export default function Home() {
   }, [showCountdown]);
 
   return (
-    <main className=" min-h-screen bg-gray-50 flex flex-col items-center justify-center p-2">
+    <main className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-2">
+  <div
+  style={{
+    backgroundImage: `url(${BackgroundImage.src})`,
+  }}
+  className="relative bg-cover bg-center text-white text-center py-12 px-6 rounded-xl shadow-lg shadow-black max-w-4xl mx-auto"
+>
+  {/* Capa Oscura */}
+  <div className="absolute inset-0 bg-black bg-opacity-60 rounded-xl"></div>
 
+  {/* Contenido */}
+  <div className="relative z-10">
+    {/* Título Impactante */}
+    <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold leading-tight">
+      <span className="block text-5xl sm:text-7xl md:text-8xl font-extrabold text-yellow-400 animate-pulse drop-shadow-lg">
+      El inglés de los artistas ya no es un secreto <br/>🚀
+      </span>
+      <span className="text-lg sm:text-xl md:text-2xl font-medium mt-4 block text-gray-300">
+        Aprenderas el método que usaron <span className="text-yellow-400 font-bold">Shakira, J Balvin y Maluma</span> para romperla en el mundo entero. 🌍
+      </span>
+    </h1>
 
-<div className="bg-gradient-to-br from-black via-gray-900 to-gray-800 text-white text-center py-12 px-6 rounded-xl shadow-lg shadow-black max-w-4xl mx-auto">
-  {/* Título Impactante */}
-  <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold leading-tight">
-    <span className="block text-5xl sm:text-7xl md:text-8xl font-extrabold text-yellow-400 animate-pulse drop-shadow-lg">
-    Habla Inglés en Solo 3 Meses<br/>🔥
-    </span>
-    <span className="text-lg sm:text-xl md:text-2xl font-medium mt-4 block text-gray-300">
-    Únete a  <span className="text-yellow-400 font-bold">+3,000 Estudiantes</span> que ya Hablan Inglés con Nuestro Método.
-    </span>
-  </h1>
-
-  {/* Video Destacado */}
-  <div className="w-full max-w-5xl mx-auto aspect-video rounded-lg shadow-lg overflow-hidden mt-10 bg-gray-700 border-2 border-gray-600 hover:scale-105 transition-transform duration-300">
-  <VideoPlayer />
-</div>
-
-
-  {/* Subtítulo Destacado */}
-  <h2 className="text-lg sm:text-2xl md:text-3xl font-bold text-white leading-relaxed mt-8">
-    💡 El método que utilizan empresarios y líderes globales  
-    <br />
-    🚀 <span className="text-yellow-400 underline">Acelera tu aprendizaje 8 veces más</span> con estrategias probadas y resultados garantizados.
-  </h2>
-</div>
-
-    
-    
-    
-    <section className="text-center max-w-4xl mx-auto px-2 mb-5">
-    
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 px-1 mt-6">
-      <div className="bg-gradient-to-br from-blue-600 to-teal-600 text-white p-4 shadow-md shadow-black flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-100 duration-500">
-        <span className="text-4xl mb-2">🇪🇸</span>
-        <p className="text-sm md:text-base font-semibold">Aprende como dominaste el español, de forma intuitiva.</p>
-      </div>
-      <div className="bg-gradient-to-br from-blue-600 to-teal-600 text-white p-4 shadow-md shadow-black flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-200 duration-500">
-        <span className="text-4xl mb-2">🌍</span>
-        <p className="text-sm md:text-base font-semibold">Accede a prácticas inmersivas con escenarios reales.</p>
-      </div>
-      <div className="bg-gradient-to-br from-blue-600 to-teal-600 text-white p-4 shadow-md shadow-black flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-300 duration-500">
-        <span className="text-4xl mb-2">🤖</span>
-        <p className="text-sm md:text-base font-semibold">Tecnología avanzada para un aprendizaje personalizado.</p>
-      </div>
-      <div className="bg-gradient-to-br from-blue-600 to-teal-600 text-white p-4 shadow-md shadow-black flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-400 duration-500">
-        <span className="text-4xl mb-2">⏱️</span>
-        <p className="text-sm md:text-base font-semibold">Resultados visibles en tiempo récord.</p>
-      </div>
+    {/* Video Destacado */}
+    <div className="w-full max-w-5xl mx-auto aspect-video rounded-lg shadow-lg overflow-hidden mt-10 bg-gray-700 border-2 border-gray-600 hover:scale-105 transition-transform duration-300">
+      <VideoPlayer />
     </div>
-    
-    </section>
+
+    {/* Subtítulo Destacado */}
+    <h2 className="text-lg sm:text-2xl md:text-3xl font-bold text-white leading-relaxed mt-8">
+      🎤😱 <span className="text-yellow-400 underline">Método inmersivo probado</span> para que pienses y hables en inglés sin darte cuenta.
+    </h2>
+  </div>
+</div>
+
+
+  <section className="text-center max-w-4xl mx-auto px-2 mb-5">
+    <div className="grid grid-cols-2 md:grid-cols-3 gap-4 px-1 mt-6">
+      <div className="relative bg-gradient-to-br from-blue-600 to-teal-600 text-white p-4 shadow-md shadow-black flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-100 duration-500">
+      <Image 
+    src={Shaki} 
+    alt="Shakira" 
+    className="w-40 h-40 object-cover rounded-full mb-2 border-2 border-white" 
+  />
+        <p className="text-sm md:text-base font-semibold">Shakira conquisto el mundo. ¡Tú también puedes! 🌟</p>
+      </div>
+      <div className="relative bg-gradient-to-br from-blue-600 to-teal-600 text-white p-4 shadow-md shadow-black flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-200 duration-500">
+      <Image 
+    src={Jbalvin} 
+    alt="Jbalvin" 
+    className="w-40 h-40 object-cover rounded-full mb-2 border-2 border-white" 
+  />
+        <p className="text-sm md:text-base font-semibold">J Balvin pasó de Medellín al mundo dominando el inglés. 🌍🔥</p>
+      </div>
+      <div className="relative bg-gradient-to-br from-blue-600 to-teal-600 text-white p-4 shadow-md shadow-black flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-300 duration-500">
+      <Image 
+    src={Maluma} 
+    alt="Maluma" 
+    className="w-40 h-40 object-cover rounded-full mb-2 border-2 border-white" 
+  />
+        <p className="text-sm md:text-base font-semibold">Maluma baby... ¿y tú, cuándo empiezas? 😉</p>
+      </div>
+
+      <div className="relative bg-gradient-to-br from-blue-600 to-teal-600 text-white p-4 shadow-md shadow-black flex flex-col items-center justify-center rounded-lg transform animate-slide-up delay-300 duration-500">
+  <Image 
+    src={Juanes} 
+    alt="Juanes" 
+    className="w-40 h-40 object-cover rounded-full mb-2 border-2 border-white" 
+  />
+  <p className="text-sm md:text-base font-semibold">🎸 “¡Es tiempo de aprender inglés, parcero!” 🔥</p>
+</div>
+
+
+    </div>
+  </section>
+
 
 
       {showMessage && (
