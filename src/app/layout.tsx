@@ -52,15 +52,14 @@ export default function RootLayout({
           />
         </noscript>
         
-        <link rel="preload" href="https://scripts.converteai.net/fd8b82e3-999d-46ce-8650-2e66bb34b4e4/players/67cf2efaf35ac4c93bf22954/player.js" as="script"/>
+        <link rel="preload" href="https://scripts.converteai.net/a542e1c9-7d9f-4708-bb88-692953c8b4a6/players/67d8fc35b5e657217ff954f1/player.js" as="script"/>
 <link rel="preload" href="https://scripts.converteai.net/lib/js/smartplayer/v1/smartplayer.min.js" as="script"/>
-<link rel="preload" href="https://images.converteai.net/fd8b82e3-999d-46ce-8650-2e66bb34b4e4/players/67cf2efaf35ac4c93bf22954/thumbnail.jpg" as="image"/>
-<link rel="preload" href="https://cdn.converteai.net/fd8b82e3-999d-46ce-8650-2e66bb34b4e4/67cf2ee70bc90de0a7ffde7d/main.m3u8" as="fetch"/>
+<link rel="preload" href="https://images.converteai.net/a542e1c9-7d9f-4708-bb88-692953c8b4a6/players/67d8fc35b5e657217ff954f1/thumbnail.jpg" as="image"/>
+<link rel="preload" href="https://cdn.converteai.net/a542e1c9-7d9f-4708-bb88-692953c8b4a6/67d8fc250d0cccc557740d14/main.m3u8" as="fetch"/>
 <link rel="dns-prefetch" href="https://cdn.converteai.net"/>
 <link rel="dns-prefetch" href="https://scripts.converteai.net"/>
 <link rel="dns-prefetch" href="https://images.converteai.net"/>
 <link rel="dns-prefetch" href="https://api.vturb.com.br"/>
-
 
       </head>
       <body>
